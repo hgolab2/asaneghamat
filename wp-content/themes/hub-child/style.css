@@ -5,9 +5,57 @@ Author: Liquid Themes
 Author URI: https://themeforest.net/user/liquidthemes
 Template: hub
 Description: Smart, Powerful and Unlimited Customizable WordPress Theme.
-Version: 1.0
+Version: 1.1
 License: GNU General Public License
 License URI: license.txt
 Text Domain: hub-child
 Tags: responsive, retina, rtl-language-support, blog, portfolio, custom-colors, live-editor
 */
+/* ==========================================================================
+   PageSpeed / Lighthouse fixes (see mu-plugins/asaneghamat-performance.php)
+   ========================================================================== */
+
+/* --- LCP: front-page background ------------------------------------------
+   Elementor sets a 3840×15856 JPEG (111 KB as WebP) as the <main> background.
+   Replace it with small WebP renditions shipped in this theme
+   (3.8 KB mobile / 21 KB desktop). Selector specificity beats Elementor's
+   `body.elementor-page-10 #lqd-site-content`. */
+body.elementor-page-10 main#lqd-site-content {
+	background-image: url("/wp-content/themes/hub-child/assets/img/home-bg-desktop.webp");
+}
+@media (max-width: 767px) {
+	body.elementor-page-10 main#lqd-site-content {
+		background-image: url("/wp-content/themes/hub-child/assets/img/home-bg-mobile.webp");
+	}
+}
+
+/* --- Accessibility: colour contrast (WCAG AA ≥ 4.5:1) ---------------------- */
+
+/* Theme link colour #5b7bfb → 3.3:1 on #f1f1f1. */
+html body {
+	--color-link: #3454d9;
+}
+.ld-fancy-heading .ld-fh-element a {
+	color: #3454d9;
+}
+
+/* Counter captions on the front page are #999999 (2.85:1 on white). */
+.elementor-10 .lqd-counter-default .lqd-counter-text {
+	color: #707070 !important;
+}
+
+/* "ادامه مطلب" naked buttons inside pastel icon boxes use the primary
+   #ff5538 (≈2.9:1). Darker shade of the same hue: ≥4.8:1 on every card bg. */
+.elementor-10 .iconbox .contents a.btn-naked,
+.elementor-10 .iconbox .contents a.btn-naked .btn-txt,
+.elementor-10 .iconbox .contents a.btn-naked .btn-icon {
+	color: #c0391a;
+}
+
+/* --- Accessibility: tap target size (≥ 24×24 px) --------------------------- */
+.lqd-lp-author-info h3 a {
+	display: inline-block;
+	padding: 4px 0;
+	margin: -4px 0;
+	line-height: 17px;
+}
