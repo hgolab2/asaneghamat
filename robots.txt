@@ -1,0 +1,25 @@
+User-agent: *
+
+# WordPress Admin
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# Login & Sensitive Files
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /wp-signup.php
+Disallow: /xmlrpc.php
+
+# Internal Search
+Disallow: /?s=
+Disallow: /search/
+
+# RSS Feeds
+Disallow: /feed/
+Disallow: /*/feed/
+
+# Comment Replies
+Disallow: /*?replytocom=
+
+# Sitemap
+Sitemap: https://asaneghamat.com/sitemap_index.xml

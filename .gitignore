@@ -1,0 +1,31 @@
+# Secrets / local config
+wp-config.php
+.user.ini
+php.ini
+phpinfo.php
+
+# Logs
+error_log
+*.log
+wp-content/debug.log
+wp-content/wflogs/
+
+# Caches & temp
+wp-content/cache/
+wp-content/wp-rocket-config/
+wp-content/advanced-cache.php
+wp-content/webp-express/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/temp-write-test-*
+wp-content/backups-dup-pro/
+
+# Uploads (media, too large for git)
+wp-content/uploads/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

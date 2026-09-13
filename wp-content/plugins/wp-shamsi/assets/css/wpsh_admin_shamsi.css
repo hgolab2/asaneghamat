@@ -1,0 +1,38 @@
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+  font-family: inherit;
+}
+
+.rtl select {
+  font-family: inherit;
+}
+
+.rtl #ui-datepicker-div {
+  font-family: inherit;
+}
+
+.rtl #ui-datepicker-div button {
+  font-family: inherit;
+}
+
+.rtl .ui-datepicker-prev:hover, .rtl .ui-datepicker-next:hover {
+  padding: 0;
+  margin: 0;
+}
+
+.rtl .ui-datepicker-prev::before, .rtl .ui-datepicker-next::before {
+  position: absolute;
+  top: 4px;
+  font-family: dashicons;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 800;
+  color: #222;
+}
+
+.rtl .ui-datepicker-prev::before {
+  content: "\f345";
+}
+
+.rtl .ui-datepicker-next::before {
+  content: "\f341";
+}

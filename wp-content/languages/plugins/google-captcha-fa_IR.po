@@ -1,0 +1,1729 @@
+# Translation of Plugins - reCaptcha by BestWebSoft - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - reCaptcha by BestWebSoft - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-22 09:42:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - reCaptcha by BestWebSoft - Stable (latest release)\n"
+
+#: bws_menu/class-bws-settings.php:964
+msgid "Security check"
+msgstr "بررسی امنیتی"
+
+#: includes/pro_banners.php:83
+msgid "Elementor Contact Form"
+msgstr "فرم تماس المنتور"
+
+#: google-captcha.php:803
+msgid "Response is empty"
+msgstr "پاسخ خالی است"
+
+#: bws_menu/bws_functions.php:617
+msgid "Start Now"
+msgstr "هم‌اکنون شروع کنید"
+
+#: bws_menu/bws_functions.php:612
+msgid "Get commission!"
+msgstr "دریافت کمیسیون!"
+
+#: bws_menu/bws_functions.php:608
+msgid "Promote and sell products"
+msgstr "تبلیغ و فروش محصولات"
+
+#: bws_menu/bws_functions.php:604
+msgid "Join affiliate program"
+msgstr "به برنامه بازاریابی بپیوندید"
+
+#: bws_menu/bws_functions.php:600
+msgid "from each BestWebSoft plugin and theme sale you refer"
+msgstr "از هر افزونه BestWebSoft و فروش پوسته مورد نظر شما"
+
+#: bws_menu/bws_functions.php:599
+msgid "Get %s"
+msgstr "دریافت %s"
+
+#: bws_menu/bws_functions.php:598
+msgid "Affiliate Program"
+msgstr "برنامه بازاریابی"
+
+#: includes/pro_banners.php:81
+msgid "Ultimate Member Profile form"
+msgstr "فرم پروفایل عضو نهایی"
+
+#: includes/pro_banners.php:80
+msgid "Ultimate Member Registration form"
+msgstr "فرم ثبت نام عضو نهایی"
+
+#: includes/pro_banners.php:79
+msgid "Ultimate Member Login form"
+msgstr "فرم ورود به عضو نهایی"
+
+#: includes/pro_banners.php:78
+msgid "WPForms"
+msgstr "WPForms"
+
+#: includes/class-gglcptch-settings-tabs.php:368
+msgid "Additional Protective Measures"
+msgstr "اقدامات حفاظتی اضافی"
+
+#: includes/class-gglcptch-settings-tabs.php:328
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: includes/class-gglcptch-settings-tabs.php:310
+msgid "If Google is not accessible or blocked in your country select other one."
+msgstr "اگر گوگل در کشور شما قابل دسترسی یا مسدود نیست، یکی دیگر را انتخاب کنید."
+
+#: includes/class-gglcptch-settings-tabs.php:302
+msgid "reCaptcha Domain"
+msgstr "دامنه reCaptcha"
+
+#: bws_menu/class-bws-settings.php:1268
+msgid "Thank you!"
+msgstr "با سپاس از شما!"
+
+#: bws_menu/class-bws-settings.php:1266
+msgid "Submit"
+msgstr "بفرست"
+
+#: bws_menu/class-bws-settings.php:1258
+msgid "Describe your idea"
+msgstr "هدف از ایده‌تان را توصیف کنید"
+
+#: bws_menu/class-bws-settings.php:1256
+msgid "We look forward to hear your ideas."
+msgstr "ما مشتاقانه منتظر شنیدن ایده شما هستیم."
+
+#: bws_menu/class-bws-settings.php:1254
+msgid "How can we improve %s?"
+msgstr "چطور می‌توانیم %s بهبود بدهیم؟"
+
+#: bws_menu/class-bws-settings.php:1248
+msgid "Request a Feature"
+msgstr "درخواست یک ویژگی"
+
+#: includes/pro_banners.php:77
+msgid "Gravity Forms"
+msgstr "گراویتی فرم"
+
+#: google-captcha.php:421
+msgid "You are in the allow list"
+msgstr "شما در فهرست مجاز هستید"
+
+#: google-captcha.php:59
+msgid "Allow List"
+msgstr "فهرست مجاز"
+
+#: includes/class-gglcptch-settings-tabs.php:413
+msgid "Allow List Notification"
+msgstr "آگاهی فهرست مجاز"
+
+#: includes/allowlist.php:180
+msgid "No IP in the Allow List"
+msgstr "بدون IP به فهرست مجاز"
+
+#: includes/allowlist.php:113
+msgid "Add IP to Allow List"
+msgstr "افزودن IP به فهرست مجاز"
+
+#: includes/allowlist.php:84
+msgid "IP to Allow List"
+msgstr "IP به فهرست مجاز"
+
+#: google-captcha.php:58 includes/allowlist.php:49
+msgid "reCaptcha Allow List"
+msgstr "فهرست مجاز reCaptcha"
+
+#: bws_menu/product_list.php:24
+msgid "Give a birth for your bike rental and booking WordPress website."
+msgstr "برای شروع اجاره دوچرخه و رزرو وب‌سایت وردپرس خود شروع کنید."
+
+#: bws_menu/product_list.php:179
+msgid "Protect WordPress website forms from spam entries with reCaptcha."
+msgstr "از فرم‌های وب سایت وردپرس در برابر ورود هرزنامه با reCaptcha محافظت کنید."
+
+#: includes/class-gglcptch-settings-tabs.php:357
+msgid "Hide reCaptcha Badge"
+msgstr "نشان reCaptcha را مخفی کنید"
+
+#: includes/class-gglcptch-settings-tabs.php:393
+msgid "Hide reCaptcha for"
+msgstr "پنهان کردن reCaptcha برای"
+
+#: bws_menu/product_list.php:58
+msgid "Add columns with custom content to WordPress website pages, posts, widgets, etc."
+msgstr "ستون‌هایی با محتوای سفارشی را به برگه‌های وب‌سایت وردپرس ، پست‌ها ، ابزارک‌ها و غیره اضافه کنید."
+
+#: bws_menu/bws_menu.php:192
+msgid "Mb"
+msgstr "Mb"
+
+#: google-captcha.php:1046
+msgid "reCaptcha v3 test failed"
+msgstr "آزمایش reCAPTCHA نسخه ۳ شکست خورد"
+
+#: bws_menu/bws_menu.php:647 bws_menu/bws_menu.php:676
+msgid "Get Pro"
+msgstr "برو به حرفه‌ای"
+
+#: bws_menu/bws_menu.php:482
+msgid "Licenses & Domains"
+msgstr "مجوزها و دامنه‌ها"
+
+#: bws_menu/bws_menu.php:479 bws_menu/class-bws-settings.php:874
+msgid "Knowledge Base"
+msgstr "پایگاه دانش"
+
+#: bws_menu/bws_menu.php:473 bws_menu/class-bws-settings.php:868
+msgid "Get Started"
+msgstr "ورود و ثبت نام"
+
+#: bws_menu/bws_menu.php:470 bws_menu/class-bws-settings.php:864
+msgid "How to install WordPress plugin from your admin Dashboard (ZIP archive)"
+msgstr "نحوه نصب افزونه وردپرس از داشبورد مدیریت (فشرده ZIP)"
+
+#: bws_menu/bws_menu.php:468 bws_menu/class-bws-settings.php:862
+msgid "Need help installing the plugin?"
+msgstr "برای نصب افزونه به کمک نیاز دارید؟"
+
+#: bws_menu/bws_menu.php:464 bws_menu/class-bws-settings.php:858
+msgid "Download Now"
+msgstr "اکنون دانلود کنید"
+
+#: bws_menu/bws_menu.php:461 bws_menu/class-bws-settings.php:855
+msgid "Your plugin has been zipped, and now is ready to download."
+msgstr "افزونه شما اکنون فشرده شد و آماده دانلود است."
+
+#: bws_menu/bws_menu.php:459 bws_menu/class-bws-settings.php:853
+msgid "Your Pro plugin is ready"
+msgstr "افزونه حرفه‌ای شما آماده است"
+
+#: bws_menu/bws_menu.php:457
+msgid "Download Pro Plugin"
+msgstr "دانلود افزونه حرفه‌ای"
+
+#: includes/class-gglcptch-settings-tabs.php:487
+msgid "reCaptcha Shortcode"
+msgstr "کدکوتاه reCAPTCHA"
+
+#: google-captcha.php:39 google-captcha.php:49 google-captcha.php:527
+#: includes/class-gglcptch-settings-tabs.php:151
+msgid "reCaptcha Settings"
+msgstr "تنظیمات reCaptcha"
+
+#: includes/forms.php:84
+msgid "reCaptcha Plugin"
+msgstr "افزونه reCaptcha"
+
+#. Plugin Name of the plugin
+msgid "reCaptcha by BestWebSoft"
+msgstr "reCaptcha by BestWebSoft"
+
+#: bws_menu/deactivation-form.php:129
+msgid "Skip and Deactivate"
+msgstr "رد و غیرفعال کردن"
+
+#: includes/class-gglcptch-settings-tabs.php:435
+msgid "Enable to keep submit button disabled until user passes the reCaptcha test (for Version 2)."
+msgstr "تا زمانی که کاربر در آزمون reCaptcha (برای نسخه 2) موفق نشود، دکمه ارسال را غیرفعال نگه دارید."
+
+#: includes/class-gglcptch-settings-tabs.php:420
+msgid "Advanced Protection"
+msgstr "محافظت پیشرفته"
+
+#: includes/class-gglcptch-settings-tabs.php:337
+msgid "Dark"
+msgstr "تیره"
+
+#: includes/class-gglcptch-settings-tabs.php:336
+msgid "Light"
+msgstr "راست"
+
+#: bws_menu/product_list.php:46
+msgid "Create your own rental website for car renting and booking."
+msgstr "وب سایت اجاره‌ای خود را برای اجاره و رزرو ماشین ایجاد کنید."
+
+#: google-captcha.php:615
+msgid " apply."
+msgstr " اعمال."
+
+#: google-captcha.php:614
+msgid "Terms of Service"
+msgstr "شرایط استفاده از خدمات"
+
+#: google-captcha.php:613
+msgid " and "
+msgstr " و "
+
+#: google-captcha.php:612
+msgid "Privacy Policy"
+msgstr "حریم خصوصی"
+
+#: google-captcha.php:611
+msgid "This site is protected by reCAPTCHA and the Google "
+msgstr "این سایت توسط reCAPTCHA و گوگل محافظت می‌شود "
+
+#: includes/class-gglcptch-settings-tabs.php:362
+msgid "Enable to hide reCaptcha Badge for Version 3 and Invisible reCaptcha."
+msgstr "پنهان کردن نشان reCaptcha برای نسخه 3 و reCaptcha نامرئی را فعال کنید."
+
+#: includes/pro_banners.php:76
+msgid "Divi Login Form"
+msgstr "فرم ورود دیوی"
+
+#: includes/pro_banners.php:75
+msgid "Divi Contact Form"
+msgstr "فرم تماس دیوی"
+
+#: includes/pro_banners.php:74
+msgid "Ninja Forms"
+msgstr "فرم‌های نینجا"
+
+#: google-captcha.php:528
+msgid "Please enable JavaScript in your browser."
+msgstr "لطفا جاوا اسکریپت را در مرورگر فعال کنید."
+
+#: includes/class-gglcptch-settings-tabs.php:372
+msgid "Score"
+msgstr "امتیاز"
+
+#: includes/forms.php:17
+msgid "Testimonials"
+msgstr "توصیه‌نامه"
+
+#: includes/forms.php:277
+msgid "Authentication failed."
+msgstr "تأیید اعتبار ناموفق بود."
+
+#: bws_menu/class-bws-settings.php:1267 bws_menu/deactivation-form.php:130
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: includes/class-gglcptch-settings-tabs.php:430
+msgid "Disabled Submit Button"
+msgstr "دکمه ارسال غیرفعال"
+
+#: bws_menu/deactivation-form.php:25
+msgid "Contact Support"
+msgstr "تماس با پشتیبانی"
+
+#: bws_menu/deactivation-form.php:96
+msgid "Quick Feedback"
+msgstr "بازخورد سریع"
+
+#: bws_menu/class-bws-settings.php:1261 bws_menu/deactivation-form.php:123
+msgid "Send website data and allow to contact me back"
+msgstr "ارسال اطلاعات وب سایت و اجازه دادن برای تماس با من"
+
+#: bws_menu/deactivation-form.php:30
+msgid "The plugin is not working"
+msgstr "این افزونه کار نمی کند"
+
+#: bws_menu/deactivation-form.php:69
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "افزونه عالی است، اما من نیاز به ویژگی خاصی دارم که شما پشتیبانی نمی‌کنید"
+
+#: bws_menu/deactivation-form.php:36
+msgid "The plugin didn't work as expected"
+msgstr "افزونه طبق انتظارات کار نمی‌کند"
+
+#: bws_menu/deactivation-form.php:49
+msgid "The plugin broke my site"
+msgstr "افزونه باعث بروز مشکلات در سایت من شد"
+
+#: bws_menu/deactivation-form.php:42
+msgid "The plugin suddenly stopped working"
+msgstr "افزونه ناگهان کار خود را متوقف کرد"
+
+#: bws_menu/deactivation-form.php:65
+msgid "What's the plugin name?"
+msgstr "نام افزونه چیست؟"
+
+#: bws_menu/deactivation-form.php:38
+msgid "What did you expect?"
+msgstr "چه انتظاری داشتید؟"
+
+#: bws_menu/deactivation-form.php:71
+msgid "What feature?"
+msgstr "چه امکاناتی؟"
+
+#: bws_menu/deactivation-form.php:75
+msgid "I no longer need the plugin"
+msgstr "من دیگر به این پلاگین نیاز ندارم"
+
+#: bws_menu/deactivation-form.php:63
+msgid "I found a better plugin"
+msgstr "من یک افزونه بهتر پیدا کرده‌ام"
+
+#: bws_menu/deactivation-form.php:56
+msgid "I couldn't understand how to get it work"
+msgstr "من نتوانستم بفهمم که آن چگونه کار می‌کند"
+
+#: bws_menu/deactivation-form.php:275
+msgid "Please tell us the reason so we can improve it."
+msgstr "لطفاً دلیل را به ما بگویید، سپس ما می‌توانیم آن را بهبود بخشیم."
+
+#: bws_menu/deactivation-form.php:32
+msgid "Kindly share what didn't work so we can fix it in future updates..."
+msgstr "لطفاً به اشتراک بگذارید آنچه که کار نمی کند، سپس ما می‌توانیم آن را در به روز رسانی‌های آینده را اصلاح کنیم ..."
+
+#: includes/forms.php:60
+msgid "Custom Forms"
+msgstr "فرم‌های سفارشی"
+
+#: includes/pro_banners.php:69
+msgid "WooCommerce Checkout form"
+msgstr "فرم تسویه حساب ووکامرس"
+
+#: includes/pro_banners.php:61
+msgid "bbPress New Topic form"
+msgstr "فرم تاپیک جدید بی بی پرس"
+
+#: includes/pro_banners.php:72
+msgid "wpForo New Topic form"
+msgstr "فرم تاپیک جدید wpForo"
+
+#: includes/pro_banners.php:58
+msgid "Jetpack Contact Form"
+msgstr "فرم تماس جت پک"
+
+#: includes/pro_banners.php:68
+msgid "WooCommerce Reset password form"
+msgstr "فرم بازیابی رمز عبور ووکامرس"
+
+#: includes/pro_banners.php:65
+msgid "BuddyPress Add New Group form"
+msgstr "فرم افزودن گروه جدید بادی پرس"
+
+#: includes/pro_banners.php:62
+msgid "bbPress Reply form"
+msgstr "فرم پاسخ بی بی پرس"
+
+#: includes/pro_banners.php:73
+msgid "wpForo Reply form"
+msgstr "فرم پاسخ wpForo"
+
+#: includes/pro_banners.php:70
+msgid "wpForo Login form"
+msgstr "فرم ورود wpForo"
+
+#: includes/pro_banners.php:66
+msgid "WooCommerce Login form"
+msgstr "فرم ورود ووکامرس"
+
+#: includes/pro_banners.php:64
+msgid "BuddyPress Comments form"
+msgstr "فرم نظرسنجی بادی پرس"
+
+#: includes/pro_banners.php:63
+msgid "BuddyPress Registration form"
+msgstr "فرم نام‌نویسی بادی پرس"
+
+#: includes/pro_banners.php:71
+msgid "wpForo Registration form"
+msgstr "فرم نام‌نویسی wpForo"
+
+#: includes/pro_banners.php:67
+msgid "WooCommerce Registration form"
+msgstr "فرم نام‌نویسی ووکامرس"
+
+#: bws_menu/deactivation-form.php:98
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "اگر یک لحظه فرصت درید، لطفاً به ما بگویید چرا غیرفعال می‌کنید"
+
+#: bws_menu/product_list.php:36
+msgid "Best secure captcha plugin to protect your WordPress forms."
+msgstr "بهترین افزونه امنیتی برای محافظت از فرم‌های وردپرس‌تان."
+
+#: bws_menu/deactivation-form.php:81
+msgid "It's a temporary deactivation, I'm just debugging an issue"
+msgstr "این غیر فعال کردن موقت است، من فقط یک مشکل را برطرف می‌کنم"
+
+#: includes/class-gglcptch-settings-tabs.php:424
+msgid "Enable to keep submit button disabled until reCaptcha is loaded (do not use this option if you see \"Failed to load Google reCaptcha\" message)."
+msgstr "تا زمانی که reCaptcha بارگیری نشود، دکمه ارسال را غیرفعال نگه دارید (در صورت مشاهده پیام \"بارگیری Google reCaptcha\" ناموفق بود) از این گزینه استفاده نکنید."
+
+#: bws_menu/deactivation-form.php:128
+msgid "Submit and Deactivate"
+msgstr "ارسال و غیرفعال‌سازی"
+
+#: bws_menu/deactivation-form.php:25
+msgid "Need help? We are ready to answer your questions."
+msgstr "کمک می‌خواهید؟ ما آماده پاسخگویی به پرسش‌های شما هستیم."
+
+#: bws_menu/bws_functions.php:113
+msgid "%s reviews"
+msgstr "%s بررسی"
+
+#: bws_menu/class-bws-settings.php:1124
+msgid "Unfortunately, Your license has expired. To continue getting top-priority support and plugin updates, you should extend it in your %s."
+msgstr "متأسفانه مجوز شما منقضی شده است. برای ادامه دریافت پشتیبانی برتر و به روز رسانی افزونه ، باید آن را در %s خود گسترش دهید."
+
+#: includes/class-gglcptch-settings-tabs.php:154
+msgid "General"
+msgstr "عمومی"
+
+#: bws_menu/product_list.php:16
+msgid "SEO"
+msgstr "سئو"
+
+#: includes/pro_banners.php:222
+msgid "Language"
+msgstr "زبان"
+
+#: includes/allowlist.php:249 includes/allowlist.php:260
+msgid "Delete"
+msgstr "حذف"
+
+#: bws_menu/product_list.php:13
+msgid "Navigation"
+msgstr "جا‌به‌جایی"
+
+#: bws_menu/product_list.php:11
+msgid "eCommerce"
+msgstr "تجارت الکترونیک"
+
+#: bws_menu/product_list.php:12
+msgid "Marketing"
+msgstr "بازار یابی"
+
+#: bws_menu/product_list.php:9
+msgid "Admin Tools"
+msgstr "ابزارهای مدیریت"
+
+#: includes/pro_banners.php:247
+msgid "Size"
+msgstr "اندازه"
+
+#: includes/forms.php:48 includes/pro_banners.php:93
+msgid "External Plugins"
+msgstr "افزونه‌های خارجی"
+
+#: includes/class-gglcptch-settings-tabs.php:63
+msgid "Invisible"
+msgstr "نامرئی"
+
+#: includes/pro_banners.php:230
+msgid "Multilanguage"
+msgstr "چند زبانه"
+
+#: bws_menu/product_list.php:10
+msgid "Content"
+msgstr "محتوا"
+
+#: includes/class-gglcptch-settings-tabs.php:23
+msgid "Misc"
+msgstr "متفرقه"
+
+#: google-captcha.php:1084
+msgid "Please submit \"Test verification\""
+msgstr "لطفا \"تأیید تست\" را ارسال کنید"
+
+#: includes/class-gglcptch-settings-tabs.php:332
+msgid "Theme"
+msgstr "قالب"
+
+#: includes/pro_banners.php:233
+msgid "Enable to switch language automatically on multilingual website using the Multilanguage plugin."
+msgstr "فعال‌کردن تغییر زبان به صورت خودکار در وب‌سایت چند زبانه با استفاده از افزونه چند زبانه."
+
+#: includes/class-gglcptch-settings-tabs.php:490
+msgid "Add reCaptcha to your posts or pages using the following shortcode:"
+msgstr "با استفاده از کدکوتاه زیر، reCaptcha را به پست‌ها و برگه‌های خود بیافزاید:"
+
+#: includes/class-gglcptch-settings-tabs.php:453
+msgid "reCaptcha version was changed. Please submit \"Test reCaptcha\" and regenerate Site and Secret keys if necessary."
+msgstr "نسخه reCaptcha تغییر کرد. لطفاً \"Test reCaptcha\" را ارسال کنید و در صورت لزوم کلیدهای سایت و خصوصی را بازسازی کنید."
+
+#: includes/class-gglcptch-settings-tabs.php:416
+msgid "This message will be displayed instead of the reCaptcha."
+msgstr "این پیام به جای reCaptcha نمایش داده می شود."
+
+#: includes/class-gglcptch-settings-tabs.php:157
+msgid "reCaptcha Version"
+msgstr "نسخه reCAPTCHA"
+
+#: includes/class-gglcptch-settings-tabs.php:240
+msgid "Enable reCaptcha for"
+msgstr "فعال‌کردن reCAPTCHA برای"
+
+#: includes/class-gglcptch-settings-tabs.php:234
+msgid "Test reCaptcha"
+msgstr "آزمایش reCAPTCHA"
+
+#: bws_menu/product_list.php:360
+msgid "Add related, featured, latest, and popular posts to your WordPress website. Connect your blog readers with a relevant content."
+msgstr "پست‌های مرتبط، برجسته، جدیدترین و محبوب را به وب‌سایت وردپرس خود اضافه کنید. خوانندگان وبلاگ خود را با محتوای مرتبط متصل کنید."
+
+#: bws_menu/product_list.php:149
+msgid "Stronger security solution which protects your WordPress website from hacks and unauthorized login attempts."
+msgstr "راه حل امنیتی قوی‌تر که از وب‌سایت وردپرس شما در برابر هک و تلاش برای ورود غیر مجاز محافظت می کند."
+
+#: bws_menu/product_list.php:17
+msgid "SMM"
+msgstr "SMM"
+
+#: bws_menu/product_list.php:475
+msgid "Backup and export Zendesk Help Center content automatically to your WordPress website database."
+msgstr "از محتوای مرکز راهنمای Zendesk پشتیبان بگیرید و آن را را به طور خودکار به پایگاه داده وب سایت وردپرسی خود انتقال دهید."
+
+#: bws_menu/product_list.php:465
+msgid "Display live count of online visitors who are currently browsing your WordPress website."
+msgstr "تعداد زنده بازدیدکنندگان آنلاین که در حال مشاهده وب‌سایت وردپرس شما هستند را نمایش دهید."
+
+#: bws_menu/product_list.php:455
+msgid "Powerful user role management plugin for WordPress website. Create, edit, copy, and delete user roles."
+msgstr "افزونه قدرتمند مدیریت نقش کاربر برای وب‌سایت وردپرس. ایجاد ، ویرایش ، رونوشت و حذف نقش‌های کاربر."
+
+#: bws_menu/product_list.php:445
+msgid "Automatically check and update WordPress website core with all installed plugins and themes to the latest versions."
+msgstr "به طور خودکار هسته وب‌سایت وردپرس را با همه افزونه‌ها و پوسته‌های نصب‌شده به آخرین نسخه بررسی و به‌روز کنید."
+
+#: bws_menu/product_list.php:435
+msgid "Add Twitter Follow, Tweet, Hashtag, and Mention buttons to WordPress posts and pages."
+msgstr "دکمه‌های دنبال‌کردن توییتر ، توییت ، Hashtag و Mention را به پست‌ها و برگه‌های وردپرس اضافه کنید."
+
+#: bws_menu/product_list.php:333
+msgid "Add customizable quotes and tips blocks to WordPress posts, pages and widgets."
+msgstr "نقل‌قول‌ها و بلوک‌های راهنمای قابل تنظیم را به نوشته‌ها، برگه‌ها و ابزارک وردپرس اضافه کنید."
+
+#: bws_menu/product_list.php:233
+msgid "Protect WordPress website against brute force attacks. Limit rate of login attempts."
+msgstr "از وب‌سایت وردپرس در برابر حملات بی‌رحمانه محافظت کنید.میزان تلاش برای ورود را محدود کنید."
+
+#: bws_menu/product_list.php:425
+msgid "Best timesheet plugin for WordPress. Track employee time, streamline attendance and generate reports."
+msgstr "بهترین افزونه صفحه زمانی برای وردپرس. پیگیری زمان کارکنان ، ساده سازی حضور و ایجاد گزارش."
+
+#: bws_menu/product_list.php:418
+msgid "Add testimonials and feedbacks from your customers to WordPress website posts, pages, and widgets."
+msgstr "توصیه‌ها و دیدگاه مشتریان خود را به نوشته‌ها، برگه‌ها و ابزارک‌های وب‌سایت وردپرس اضافه کنید."
+
+#: bws_menu/product_list.php:408
+msgid "Add email newsletter sign up form to WordPress posts, pages and widgets. Collect data and subscribe your users."
+msgstr "فرم ثبت‌نام خبرنامه ایمیل را به نوشته‌ها، برگه‌ها و ابزارک‌های وردپرس اضافه کنید. داده‌ها را جمع آوری کرده و کاربران خود را مشترک کنید."
+
+#: bws_menu/product_list.php:401
+msgid "Add social media login, registration, and commenting to your WordPress website."
+msgstr "ورود، ثبت‌نام و اظهار نظر در شبکه‌های اجتماعی را به وب‌سایت وردپرس خود اضافه کنید."
+
+#: bws_menu/product_list.php:139
+msgid "Add beautiful galleries, albums & images to your WordPress website in a few clicks."
+msgstr "گالری ها ، آلبوم ها و تصاویر زیبا را با چند کلیک به وب سایت وردپرس خود اضافه کنید."
+
+#: bws_menu/product_list.php:129
+msgid "Add Facebook Follow, Like, and Share buttons to WordPress posts, pages, and widgets."
+msgstr "دکمه‌های دنبال کردن ، پسندیدن و هم‌رسانی فیس‌بوک را به نوشته‌ها ، برگه‌ها و ابزارک‌های وردپرس اضافه کنید."
+
+#: bws_menu/product_list.php:122
+msgid "Get latest error log messages to diagnose website problems. Define and fix issues faster."
+msgstr "برای تشخیص مشکلات وب‌سایت، آخرین پیام‌های گزارش خطا را دریافت کنید. مشکلات را سریع‌تر تشخیص و برطرف کنید."
+
+#: bws_menu/product_list.php:115
+msgid "Add PayPal and 2CO donate buttons to receive charity payments."
+msgstr "برای دریافت پرداخت‌های خیریه، دکمه‌های اهدای PayPal و 2CO را اضافه کنید."
+
+#: bws_menu/product_list.php:105
+msgid "Add custom post types and taxonomies to WordPress website search results."
+msgstr "انواع پست سفارشی و طبقه‌بندی‌ها را به نتایج جستجوی وب‌سایت وردپرس اضافه کنید."
+
+#: bws_menu/product_list.php:95
+msgid "Add unlimited custom pages to WordPress admin dashboard."
+msgstr "برگه‌های سفارشی نامحدود را به داشبورد مدیریت وردپرس اضافه کنید."
+
+#: bws_menu/bws_functions.php:123
+msgid "Need help?"
+msgstr "به کمک نیاز دارید؟"
+
+#: google-captcha.php:1035
+msgid "Secret Key is missing."
+msgstr "کلید محرمانه وجود ندارد."
+
+#: includes/forms.php:375
+msgid "Click the BACK button on your browser and try again."
+msgstr "روی دکمه بازگشت در مرورگر خود کلیک کنید و دوباره امتحان کنید."
+
+#: google-captcha.php:273
+msgid "Please wait until Google reCAPTCHA is loaded."
+msgstr "لطفا کمی بردبار باشید تا گوگل reCAPTCHA بارگذاری شود."
+
+#: bws_menu/class-bws-settings.php:1191
+msgid "Read the Instruction"
+msgstr "دستورالعمل را بخوانید"
+
+#: bws_menu/class-bws-settings.php:1210
+msgid "Start Your Free Trial"
+msgstr "دوره آزمایشی رایگان خود را آغاز کنید"
+
+#: bws_menu/bws_menu.php:213 bws_menu/bws_menu.php:258
+#: bws_menu/bws_menu.php:261
+msgid "by %s"
+msgstr "توسط %s"
+
+#: bws_menu/class-bws-settings.php:368
+msgid "All plugin settings were restored."
+msgstr "تنظیمات افزونه بازیابی شد."
+
+#: bws_menu/class-bws-settings.php:685
+msgid "Default Settings"
+msgstr "تنظیمات پیش‌فرض"
+
+#: bws_menu/class-bws-settings.php:629
+msgid "Miscellaneous Settings"
+msgstr "تنظیمات متفرقه"
+
+#: bws_menu/class-bws-settings.php:665
+msgid "Enable to display plugin Pro options."
+msgstr "برای نمایش گزینه‌های نگارش پیشرفته افزونه فعال کنید."
+
+#: bws_menu/class-bws-settings.php:687
+msgid "Restore Settings"
+msgstr "بازگرداندن تنظیمات"
+
+#: bws_menu/bws_menu.php:209
+msgid "Website URL"
+msgstr "آدرس وب‌سایت"
+
+#: bws_menu/class-bws-settings.php:671
+msgid "Track Usage"
+msgstr "پیگیری استفاده"
+
+#: bws_menu/class-bws-settings.php:656
+msgid "Pro Options"
+msgstr "گزینه‌های نگارش پیشرفته"
+
+#: bws_menu/class-bws-settings.php:586
+msgid "Activate custom %s code."
+msgstr "کد سفارشی %s را فعال کنید."
+
+#: bws_menu/class-bws-settings.php:531
+#: includes/class-gglcptch-settings-tabs.php:24
+msgid "Custom Code"
+msgstr "کد سفارشی"
+
+#: bws_menu/class-bws-settings.php:217
+msgid "Status"
+msgstr "وضعیت"
+
+#: bws_menu/bws_menu.php:211
+msgid "WP Multisite"
+msgstr "وردپرس چندسایتی"
+
+#: bws_menu/class-bws-settings.php:940
+msgid "Login to Client Area"
+msgstr "ورود به ناحیه کلاینت"
+
+#: bws_menu/bws_menu.php:210
+msgid "WP Version"
+msgstr "نگارش وردپرس"
+
+#: bws_menu/class-bws-settings.php:221
+#: includes/class-gglcptch-settings-tabs.php:61
+#: includes/class-gglcptch-settings-tabs.php:62
+msgid "Version"
+msgstr "نگارش"
+
+#: bws_menu/class-bws-settings.php:938
+msgid "Manage License Settings"
+msgstr "مدیریت تنظیمات مجوز"
+
+#: bws_menu/bws_menu.php:206
+msgid "WordPress Environment"
+msgstr "محسط وردپرس"
+
+#: bws_menu/bws_menu.php:212
+msgid "WP Memory Limit"
+msgstr "محدودیت حافظ وردپرس"
+
+#: bws_menu/bws_menu.php:217
+msgid "Server Environment"
+msgstr "محیط سرور"
+
+#: bws_menu/class-bws-settings.php:1196
+msgid "Watch the Video"
+msgstr "فیلم را ببینید"
+
+#: bws_menu/deprecated.php:187
+msgid "Congratulations! The Pro license of the plugin is activated successfully."
+msgstr "تبریک! مجوز عضویت حرفه‌ای با موفقیت فعال شد."
+
+#: bws_menu/class-bws-settings.php:942
+msgid "Manage active licenses, download BWS products, and view your payment history using BestWebSoft Client Area."
+msgstr "مجوزهای فعال را مدیریت کنید، محصولات BWS را بارگیری کنید و تاریخچه پرداخت خود را با استفاده از ناحیه مشتری BestWebSoft مشاهده کنید."
+
+#: bws_menu/class-bws-settings.php:927
+msgid "If necessary, you can check if the license key is correct or reenter it in the field below."
+msgstr "در صورت لزوم، می‌توانید درستی کلید مجوز را بررسی کنید یا دوباره آن را در قسمت زیر وارد کنید."
+
+#: bws_menu/class-bws-settings.php:837
+#: includes/class-gglcptch-settings-tabs.php:25
+msgid "License Key"
+msgstr "کلید لایسنس"
+
+#: bws_menu/class-bws-settings.php:703
+msgid "Import / Export"
+msgstr "درون ریزی / برون بری"
+
+#: bws_menu/class-bws-settings.php:680
+msgid "Enable to allow tracking plugin usage anonymously in order to make it better."
+msgstr "فعال کردن اجازه ردیابی استفاده از افزونه به صورت ناشناس به منظور بهتر شدن آن."
+
+#: bws_menu/class-bws-settings.php:214
+msgid "License"
+msgstr "لایسنس"
+
+#: bws_menu/class-bws-settings.php:208
+msgid "Active"
+msgstr "فعال"
+
+#: bws_menu/class-bws-settings.php:206
+msgid "Renew Now"
+msgstr "اکنون تمدید کنید"
+
+#: bws_menu/class-bws-settings.php:206
+msgid "Expired on %s"
+msgstr "پایان اعتبار در %s"
+
+#: bws_menu/class-bws-settings.php:200
+msgid "%s day(-s) left"
+msgstr "%s day(-s) left"
+
+#: bws_menu/class-bws-settings.php:197
+msgid "Expired"
+msgstr "به پایان رسیده است"
+
+#: bws_menu/class-bws-settings.php:189
+msgid "Inactive"
+msgstr "غیر فعال"
+
+#: bws_menu/class-bws-settings.php:174
+msgid "Information"
+msgstr "اطلاعات"
+
+#: bws_menu/bws_menu.php:238
+msgid "WP DB version"
+msgstr "نسخه دیتابیس وردپرس"
+
+#: bws_menu/bws_menu.php:236
+msgid "Database"
+msgstr "دیتابیس"
+
+#: bws_menu/bws_menu.php:153
+msgid "Congratulations! Pro Membership license is activated successfully."
+msgstr "تبریک! مجوز عضویت حرفه‌ای با موفقیت فعال شد."
+
+#: bws_menu/bws_functions.php:1062
+msgid "Are you sure you want to restore default settings?"
+msgstr "آیا مطمئن هستید که می‌خواهید تنظیمات را به حالت پیش‌فرض بازنشانی کنید؟"
+
+#: bws_menu/bws_functions.php:656
+msgid "You can always look at premium options by checking the \"Pro Options\" in the \"Misc\" tab."
+msgstr "همیشه می توانید با بررسی \"گزینه‌های حرفه‌ای\" در برگه \"گوناگون\" به گزینه‌های برتر نگاه کنید."
+
+#: bws_menu/bws_functions.php:555
+msgid "Thank you for choosing %s plugin!"
+msgstr "با تشکر از شما برای انتخاب افزونه %s!"
+
+#: bws_menu/bws_functions.php:380
+msgid "This function(-s) will be removed over time. Please update the product(-s)."
+msgstr "این تایع (-s) هر زمانی حذف می‌شود. لطفا محصول را به‌روز کنید(-s)."
+
+#: bws_menu/bws_functions.php:362
+msgid "Deprecated function(-s) is used on the site here:"
+msgstr "تابع منسوخ شده (-s) در این سایت در اینجا استفاده می‌شود:"
+
+#: bws_menu/deprecated.php:231
+msgid "Congratulations! Pro version of the plugin is  installed and activated successfully."
+msgstr "تبریک! نسخه حرفه‌ای افزونه با موفقیت نصب و فعال شده است."
+
+#: bws_menu/class-bws-settings.php:901
+msgid "Enter your license key to activate %s and get premium plugin features."
+msgstr "کلید مجوز خود را وارد تا %s و ویژگی‌های پولی را دریافت کنید."
+
+#: bws_menu/class-bws-settings.php:688
+msgid "This will restore plugin settings to defaults."
+msgstr "تنظیمات افزونه را به حالت اولیه بازنشانی می‌کند."
+
+#: bws_menu/bws_functions.php:303
+msgid "Thank you for installing %s plugin!"
+msgstr "با تشکر از شما برای نصب افزونه %s!"
+
+#: bws_menu/bws_functions.php:127
+msgid "Want to support the plugin?"
+msgstr "پشتیبانی افزونه را می‌خواهید؟"
+
+#: bws_menu/bws_functions.php:114
+msgid "Rate it"
+msgstr "امتیاز بدهید"
+
+#: bws_menu/bws_functions.php:112
+msgid "Like the plugin?"
+msgstr "این افزونه را دوست دارم؟"
+
+#: includes/allowlist.php:98
+msgid "Allowed diapason"
+msgstr "دامنه مجاز"
+
+#: includes/allowlist.php:119
+msgid "Search IP"
+msgstr "جستجوی آی پی"
+
+#: includes/pro_banners.php:48
+msgid "Allowed separators for reasons: a comma"
+msgstr "جداکننده‌های مجاز برای دلایل: یک کاما"
+
+#: includes/allowlist.php:190
+msgid "Date Added"
+msgstr "تاریخ اضافه شد"
+
+#: includes/allowlist.php:189
+msgid "IP Address"
+msgstr "آدرس آی پی"
+
+#: includes/allowlist.php:375
+msgid "%s IP was deleted successfully."
+msgid_plural "%s IPs were deleted successfully."
+msgstr[0] "آی پی(های)  %s با موفقیت حذف شد."
+
+#: includes/allowlist.php:359
+msgid "Invalid IP. See allowed formats."
+msgstr "آی پی نامعتبر است فرمتهای مجاز را مشاهده کنید."
+
+#: includes/allowlist.php:91
+msgid "My IP"
+msgstr "آی پی من"
+
+#: includes/allowlist.php:180
+msgid "Nothing found"
+msgstr "چیزی پیدا نشد"
+
+#. Plugin URI of the plugin
+msgid "https://bestwebsoft.com/products/wordpress/plugins/google-captcha/"
+msgstr "https://bestwebsoft.com/products/wordpress/plugins/google-captcha/"
+
+#: includes/allowlist.php:404
+msgid "Search results for"
+msgstr "نتایج جستجو برای"
+
+#: includes/allowlist.php:402
+msgid "You have not entered any IP in to the search form."
+msgstr "هنوز هیچ IP در فرم ورود وارد نکرده‌اید."
+
+#: includes/allowlist.php:399
+msgid "You have not entered any IP."
+msgstr "هنوز هیچ IP وارد نکرده‌اید."
+
+#: includes/allowlist.php:356
+msgid "IP is already in the allow list."
+msgstr "IP به فهرست مجاز افزوده شد."
+
+#: includes/allowlist.php:353 includes/allowlist.php:379
+#: includes/allowlist.php:396
+msgid "Some errors occurred."
+msgstr "برخی از خطاها رخ داده است."
+
+#: includes/allowlist.php:351
+msgid "IP added to the allow list successfully."
+msgstr "IP به فهرست مجاز با موفقیت افزوده شد."
+
+#: includes/pro_banners.php:48
+msgid "tab, new line or carriage return."
+msgstr "سربرگ، خط جدید یا بازگشت محموله."
+
+#: includes/pro_banners.php:45 includes/pro_banners.php:48
+msgid "semicolon"
+msgstr "semicolon"
+
+#: includes/pro_banners.php:45
+msgid "Allowed separators for IPs: a comma"
+msgstr "جداکننده‌های مجاز برای IP: یک کاما"
+
+#: includes/allowlist.php:96 includes/pro_banners.php:44
+msgid "Allowed formats"
+msgstr "فرمت‌های مجاز"
+
+#: includes/pro_banners.php:46
+msgid "Reason"
+msgstr "دلیل"
+
+#: includes/pro_banners.php:19
+msgid "This options is available in Pro version of plugin"
+msgstr "این امکانات در نسخه حرفه‌ای افزونه در دسترس است"
+
+#: includes/allowlist.php:392
+msgid "One IP was deleted successfully."
+msgstr "IP با موفقیت حذف شد."
+
+#: bws_menu/bws_menu.php:625
+msgid "Not installed"
+msgstr "نصب نشده"
+
+#: bws_menu/bws_menu.php:171
+msgid "Please enter your license key."
+msgstr "لطفاً کلید مجوز خود را وارد کنید."
+
+#. Description of the plugin
+msgid "Protect WordPress website forms from spam entries with Google Captcha (reCaptcha)."
+msgstr "از فرم‌های وب‌سایت وردپرس در برابر ورود هرزنامه با reCaptcha گوگل محافظت کنید."
+
+#: bws_menu/bws_menu.php:532 bws_menu/bws_menu.php:705
+msgid "Category"
+msgstr "دسته‌بندی"
+
+#: bws_menu/bws_functions.php:128 bws_menu/bws_menu.php:659
+msgid "Donate"
+msgstr "حمایت کردن"
+
+#: bws_menu/bws_functions.php:330
+msgid "More Details"
+msgstr "جزئیات بیشتر"
+
+#: bws_menu/bws_functions.php:331
+msgid "Less Details"
+msgstr "جزئیات کمتر"
+
+#: bws_menu/bws_menu.php:629
+msgid "Renew to get updates"
+msgstr "بررسی مجدد به روز رسانی"
+
+#: bws_menu/bws_menu.php:491
+msgid "Return to BestWebSoft Panel"
+msgstr "بازگشت به پنل BestWebSoft"
+
+#: bws_menu/bws_menu.php:632
+msgid "Update to v %s"
+msgstr "به روز رسانی به نگارش %s"
+
+#: bws_menu/bws_menu.php:653 bws_menu/class-bws-settings.php:202
+#: bws_menu/class-bws-settings.php:1206 google-captcha.php:76
+#: includes/pro_banners.php:31
+msgid "Upgrade to Pro"
+msgstr "ارتقاء به نسخه پیشرفته"
+
+#: bws_menu/bws_menu.php:687
+msgid "Install this plugin"
+msgstr "این افزونه را نصب کنید"
+
+#: bws_menu/bws_functions.php:838
+msgid "Add BWS Shortcode"
+msgstr "افزودن کد کوتاه BWS"
+
+#: bws_menu/deprecated.php:158 bws_menu/deprecated.php:253
+msgid "License key can be found in the"
+msgstr "کلید مجور را می‌توان پیدا کرد در"
+
+#: bws_menu/deprecated.php:29
+msgid "System Status"
+msgstr "وضعیت سیستم"
+
+#: bws_menu/bws_menu.php:522
+msgid "Not Installed"
+msgstr "نصب نشده"
+
+#: bws_menu/deprecated.php:251
+msgid "version of the plugin."
+msgstr "نگارش افزونه."
+
+#: bws_menu/bws_menu.php:529
+msgid "Filter results"
+msgstr "فیلتر کردن نتایج"
+
+#: bws_menu/deprecated.php:160 bws_menu/deprecated.php:255
+msgid "(your username is the email address specified during the purchase)."
+msgstr "(نام کاربری شما آدرس ایمیل مشخص شده در هنگام خرید است)."
+
+#: bws_menu/deactivation-form.php:87
+msgid "Other"
+msgstr "سایر موارد"
+
+#: bws_menu/product_list.php:15
+msgid "Security"
+msgstr "امنیت"
+
+#: bws_menu/bws_menu.php:772
+msgid "Browse More WordPress Themes"
+msgstr "مرور بیشتر پوسته‌های وردپرس"
+
+#: bws_menu/bws_menu.php:700
+msgid "Nothing found. Try another criteria."
+msgstr "چیزی پیدا نشد. تلاش دوباره‌ای کنید."
+
+#: bws_menu/bws_menu.php:440
+msgid "Plugin <strong>activated</strong>."
+msgstr "افزونه <strong>غیرفعال شد</strong>."
+
+#: bws_menu/bws_menu.php:435
+msgid "Plugin could not be activated because it triggered a <strong>fatal error</strong>."
+msgstr "افزونه فعال نشد زیرا باعث <strong> خطای مهلک </strong> رخ داده است."
+
+#: bws_menu/bws_menu.php:433
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during activation. If you notice &#8220;headers already sent&#8221; messages, problems with syndication feeds or other issues, try deactivating or removing this plugin."
+msgstr "افزونه %d نویسه‌های در <strong>خروجی غیرمنتظره</strong> در زمان فعال‌سازی ایجاد کرده است. اگر شما &#8220;هدر قبلا ارسال شده&#8221; پیام‌ها مشاهده کردید, افزونه را غیرفعال و حذف کنید."
+
+#: bws_menu/bws_menu.php:428
+msgid "Upload Plugin"
+msgstr "بارگذاری افزونه"
+
+#: bws_menu/bws_menu.php:377
+msgid "Subscribe to Pro Membership"
+msgstr "آبونه مشترک حرفه‌ای شوید"
+
+#: bws_menu/bws_menu.php:395
+msgid "Enter your license key"
+msgstr "کلید مجوز خود را وارد کنید"
+
+#: bws_menu/bws_menu.php:375
+msgid "Get Access to %s+ Premium Plugins"
+msgstr "دریافت دسترسی به %s +افزونه‌های پولی"
+
+#: bws_menu/bws_menu.php:366
+msgid "Manage purchased licenses & subscriptions"
+msgstr "مدیریت مجوزهای خریداری شده و آبونه‌های‌تان"
+
+#: bws_menu/bws_menu.php:136
+msgid "Log in"
+msgstr "ورود"
+
+#: bws_menu/bws_menu.php:136
+msgid "This license key is bound to another site. Change it via personal Client Area."
+msgstr "این کلید مجوز به سایت دیگری متصل است. آن را از طریق ناحیه مشتری شخصی تغییر دهید."
+
+#: bws_menu/deprecated.php:249
+msgid "Enter your license key to install and activate"
+msgstr "کلید مجوز خود را وارد کنید تا افزونه را نصب و فعال کنید"
+
+#: bws_menu/bws_functions.php:328
+msgid "Thank you for installing plugins by BestWebSoft!"
+msgstr "با تشکر از شما برای نصب افزونه‌های BestWebSoft!"
+
+#: google-captcha.php:1092
+msgid "Test verification"
+msgstr "تست تأییدیه"
+
+#: google-captcha.php:1113
+msgid "The verification is successfully completed."
+msgstr "تأیید با موفقیت کامل شد."
+
+#: google-captcha.php:1039
+msgid "Check your domain configurations"
+msgstr "تنظیمات دامنه خود را بررسی کنید"
+
+#: google-captcha.php:1042
+msgid "User response is invalid"
+msgstr "پاسخ کاربر نامعتبر است"
+
+#: google-captcha.php:1040
+msgid "and enter it again"
+msgstr "و دوباره وارد آن شوید"
+
+#: google-captcha.php:1038
+msgid "Secret Key is invalid."
+msgstr "کلید خصوصی نامعتبر است."
+
+#: google-captcha.php:1086
+msgid "Please complete the captcha and submit \"Test verification\""
+msgstr "لطفا captcha را کامل کنیدو \"تأیید تست\" را ارسال کنید"
+
+#: bws_menu/class-bws-settings.php:597
+msgid "Learn more about %s"
+msgstr "اطلاعات بیشتر درباره %s"
+
+#: bws_menu/class-bws-settings.php:574
+msgid "Browsing"
+msgstr "مرور"
+
+#: bws_menu/class-bws-settings.php:554
+msgid "These styles will be added to the header on all pages of your site."
+msgstr "این سبک‌ها به سربرگ همه برگه‌های سایت شما اضافه می‌شوند."
+
+#: bws_menu/class-bws-settings.php:548
+msgid "You do not have sufficient permissions to edit plugins for this site."
+msgstr "شما مجوز کافی برای ویرایش افزونه‌های این سایت را ندارید."
+
+#: bws_menu/bws_functions.php:557
+msgid "Suggest a Feature"
+msgstr "پیشنهاد یک ویژگی"
+
+#: bws_menu/bws_functions.php:556
+msgid "If you have a feature, suggestion or idea you'd like to see in the plugin, we'd love to hear about it!"
+msgstr "اگر ویژگی، پیشنهاد یا ایده‌ای دارید که دوست دارید در افزونه مشاهده کنید، خوشحال می‌شویم در مورد آن بشنویم!"
+
+#: google-captcha.php:288
+msgid "Warning"
+msgstr "اخطار"
+
+#: includes/forms.php:39
+msgid "WordPress default"
+msgstr "پیشفرض وردپرس"
+
+#: bws_menu/bws_functions.php:1203
+msgid "Submit a Request"
+msgstr "ارسال یک درخواست"
+
+#: bws_menu/bws_functions.php:1202 bws_menu/bws_menu.php:477
+#: bws_menu/class-bws-settings.php:872
+msgid "Video Instructions"
+msgstr "ویدیو دستور العمل‌ها"
+
+#: bws_menu/bws_functions.php:1201 bws_menu/bws_menu.php:475
+#: bws_menu/class-bws-settings.php:870
+msgid "Documentation"
+msgstr "مستندات"
+
+#: bws_menu/bws_functions.php:861
+msgid "Add shortcode"
+msgstr "افزونه کد کوتاه"
+
+#: bws_menu/bws_functions.php:124 bws_menu/bws_functions.php:1189
+#: bws_menu/class-bws-settings.php:1193
+msgid "Visit Help Center"
+msgstr "مشاهده مرکز راهنمایی"
+
+#: bws_menu/bws_functions.php:1200
+msgid "For more information:"
+msgstr "برای اطلاعات بیشتر:"
+
+#: bws_menu/bws_functions.php:861
+msgid "Add BestWebSoft plugins' shortcodes using this button."
+msgstr "با استفاده از این دکمه، کدکوتاه افزونه‌های BestWebSoft را اضافه کنید."
+
+#: bws_menu/bws_functions.php:309 bws_menu/bws_functions.php:341
+#: includes/allowlist.php:52
+msgid "Add New"
+msgstr "افزودن"
+
+#: bws_menu/bws_functions.php:1137
+msgid "Shortcode settings"
+msgstr "تنظیمات کد کوتاه"
+
+#: bws_menu/bws_functions.php:305
+msgid "Let's get started"
+msgstr "بیا شروع کنیم"
+
+#: bws_menu/bws_functions.php:238 bws_menu/bws_functions.php:263
+#: bws_menu/bws_functions.php:313 bws_menu/bws_functions.php:323
+#: bws_menu/bws_functions.php:560 bws_menu/bws_functions.php:593
+msgid "Close notice"
+msgstr "اطلاعیه را ببند"
+
+#: bws_menu/bws_functions.php:839
+msgid "Add BWS Plugins Shortcode"
+msgstr "افزودن کد کوتاه افزونه BWS"
+
+#: bws_menu/bws_functions.php:1128
+msgid "Plugin"
+msgstr "افزونه"
+
+#: bws_menu/bws_functions.php:1142
+msgid "The shortcode will be inserted"
+msgstr "کد کوتاه افزوده خواهد شد"
+
+#: bws_menu/bws_functions.php:634
+msgid "The plugin's settings have been changed."
+msgstr "تنظیمات این افزونه تغییر کرده است."
+
+#: bws_menu/deprecated.php:242
+msgid "Show Pro features"
+msgstr "نمایش ویژگی‌های نگارش پیشرفته"
+
+#: bws_menu/bws_functions.php:285
+msgid "or higher! We do not guarantee that our plugin will work correctly. Please upgrade to WordPress latest version."
+msgstr "یا بالاتر! ما تضمین نمی‌کنیم که افزونه ما به درستی کار کند. لطفاً به آخرین نسخه وردپرس ارتقا دهید."
+
+#: bws_menu/bws_menu.php:365 google-captcha.php:1149
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: bws_menu/bws_functions.php:635 bws_menu/class-bws-settings.php:235
+#: bws_menu/class-bws-settings.php:263
+msgid "Save Changes"
+msgstr "ذخیره‌ی تغییرات"
+
+#. Author URI of the plugin
+msgid "https://bestwebsoft.com/"
+msgstr "https://bestwebsoft.com/"
+
+#. Author of the plugin
+msgid "BestWebSoft"
+msgstr "BestWebSoft"
+
+#: google-captcha.php:904 includes/forms.php:373
+msgid "Error"
+msgstr "خطا در آپلود"
+
+#: google-captcha.php:626
+msgid "plugin setting page"
+msgstr "صفحه تنظیمات افزونه"
+
+#: google-captcha.php:624
+msgid "and enter them on the"
+msgstr "و آنجا وارد کنید"
+
+#: google-captcha.php:623
+msgid "here"
+msgstr "اینجا"
+
+#: google-captcha.php:622
+msgid "To use reCaptcha you must get the keys from"
+msgstr "برای استفاده از reCaptcha باید کلیدها را آن دریافت کنید از"
+
+#: bws_menu/bws_menu.php:193 bws_menu/bws_menu.php:194
+#: bws_menu/bws_menu.php:195 bws_menu/bws_menu.php:199
+msgid "Yes"
+msgstr "بله"
+
+#: bws_menu/bws_functions.php:306 bws_menu/bws_functions.php:339
+#: bws_menu/bws_menu.php:665 bws_menu/bws_menu.php:667 google-captcha.php:50
+#: google-captcha.php:1133 google-captcha.php:1146
+#: includes/class-gglcptch-settings-tabs.php:22
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: bws_menu/bws_functions.php:1194 google-captcha.php:1148
+msgid "FAQ"
+msgstr "سوالات متداول"
+
+#: includes/pro_banners.php:251
+msgid "Normal"
+msgstr "طبیعی"
+
+#: bws_menu/deprecated.php:189 bws_menu/deprecated.php:233
+msgid "the setting page"
+msgstr "صفحه تنظیمات"
+
+#: bws_menu/bws_menu.php:227
+msgid "PHP Max Script Execute Time"
+msgstr "حداکثر زمان اجرای اسکریپت PHP"
+
+#: bws_menu/bws_menu.php:225
+msgid "PHP Max Upload Size"
+msgstr "حداکثر اندازه آپلود PHP"
+
+#: bws_menu/bws_menu.php:226
+msgid "PHP Max Post Size"
+msgstr "حداکثر اندازه پست کردن PHP"
+
+#: bws_menu/bws_functions.php:634 bws_menu/class-bws-settings.php:640
+#: bws_menu/class-bws-settings.php:645 bws_menu/class-bws-settings.php:714
+#: bws_menu/class-bws-settings.php:719
+msgid "Notice"
+msgstr "توجه"
+
+#: includes/class-gglcptch-settings-tabs.php:138
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: bws_menu/deprecated.php:207
+msgid "Restore all plugin settings to defaults"
+msgstr "تمام تنظیمات افزونه را به پیش فرض بازگردانید"
+
+#: bws_menu/bws_functions.php:970 includes/class-gglcptch-settings-tabs.php:291
+#: includes/class-gglcptch-settings-tabs.php:319
+#: includes/class-gglcptch-settings-tabs.php:346
+#: includes/class-gglcptch-settings-tabs.php:384 includes/pro_banners.php:22
+msgid "Close"
+msgstr "بستن"
+
+#: bws_menu/bws_menu.php:300
+msgid "Sorry, email message could not be delivered."
+msgstr "با عرض پوزش، پیام ایمیل تحویل داده نشد."
+
+#: bws_menu/bws_functions.php:176 bws_menu/bws_functions.php:267
+msgid "Learn more"
+msgstr "بیشتر بدانید"
+
+#: bws_menu/bws_menu.php:276
+msgid "Thank you for contacting us."
+msgstr "از اینکه با ما تماس گرفتید، متشکریم."
+
+#: bws_menu/bws_menu.php:272
+msgid "Email with system info is sent to %s."
+msgstr "ایمیل با اطلاعات سیستم به %s ارسال می شود."
+
+#: bws_menu/bws_menu.php:230
+msgid "PHP XML support"
+msgstr "پشتیبانی از PHP XML"
+
+#: bws_menu/bws_menu.php:229
+msgid "PHP IPTC support"
+msgstr "پشتیبانی از PHP IPTC"
+
+#: bws_menu/bws_menu.php:228
+msgid "PHP Exif support"
+msgstr "پشتیبانی از PHP Exif"
+
+#: bws_menu/deprecated.php:155
+msgid "After that, you can activate it by entering your license key."
+msgstr "پس از آن، می‌توانید آن را با وارد کردن کلید مجوز خود فعال کنید."
+
+#: bws_menu/class-bws-settings.php:1189
+msgid "Need Help?"
+msgstr "کمک می‌خواهید؟"
+
+#: includes/class-gglcptch-settings-tabs.php:93
+msgid "Enter site key"
+msgstr "کلید سایت را وارد کنید"
+
+#: includes/class-gglcptch-settings-tabs.php:49
+msgid "Site Key"
+msgstr "کلید سایت"
+
+#: includes/class-gglcptch-settings-tabs.php:100
+msgid "Enter secret key"
+msgstr "کلید رمز را وارد کنید"
+
+#: includes/class-gglcptch-settings-tabs.php:54
+msgid "Secret Key"
+msgstr "کلید رمز"
+
+#: bws_menu/bws_menu.php:387 bws_menu/bws_menu.php:408
+#: bws_menu/class-bws-settings.php:925 bws_menu/deprecated.php:133
+msgid "Check license key"
+msgstr "کلید مجوز را بررسی کنید"
+
+#: bws_menu/bws_menu.php:134 bws_menu/class-bws-settings.php:1003
+#: bws_menu/class-bws-settings.php:1118
+msgid "Wrong license key."
+msgstr "کلید مجوز اشتباه است."
+
+#: bws_menu/bws_functions.php:308 bws_menu/bws_menu.php:377
+#: bws_menu/class-bws-settings.php:908 bws_menu/class-bws-settings.php:1196
+#: bws_menu/class-bws-settings.php:1209 bws_menu/deprecated.php:260
+msgid "or"
+msgstr "یا"
+
+#: includes/class-gglcptch-settings-tabs.php:94
+#: includes/class-gglcptch-settings-tabs.php:101
+msgid "WARNING: The captcha will not be displayed until you fill key fields."
+msgstr "هشدار: تا زمانی که فیلدهای کلیدی را پر نکنید، کپچا نمایش داده نمی‌شود."
+
+#: bws_menu/class-bws-settings.php:908 bws_menu/deprecated.php:260
+msgid "Start Your Free %s-Day Trial Now"
+msgstr "هم اکنون دوره %s روزه استفاده رایگان خود را شروع کنید"
+
+#: bws_menu/bws_menu.php:208
+msgid "Home URL"
+msgstr "نشانی صفحه خانگی"
+
+#: bws_menu/bws_menu.php:223
+msgid "PHP Memory Limit"
+msgstr "محدودیت حافظه PHP"
+
+#: bws_menu/bws_menu.php:150 bws_menu/class-bws-settings.php:1022
+msgid "Your license will expire on"
+msgstr "مجوز شما منقضی خواهد شد در"
+
+#: bws_menu/bws_menu.php:222
+msgid "PHP Allow URL fopen"
+msgstr "مجوز PHP برای URL fopen"
+
+#: bws_menu/bws_menu.php:270
+msgid "Please enter a valid email address."
+msgstr "لطفاً یک آدرس ایمیل معتبر وارد کنید."
+
+#: bws_menu/bws_menu.php:406 bws_menu/bws_menu.php:673
+#: bws_menu/bws_menu.php:682 bws_menu/class-bws-settings.php:898
+#: bws_menu/deprecated.php:170 bws_menu/deprecated.php:178
+#: bws_menu/deprecated.php:268 bws_menu/deprecated.php:281
+#: includes/forms.php:124 includes/forms.php:148
+msgid "Activate"
+msgstr "فعال‌سازی"
+
+#: bws_menu/bws_menu.php:213
+msgid "Active Theme"
+msgstr "فعال کردن قالب"
+
+#: includes/pro_banners.php:252
+msgid "Compact"
+msgstr "فشرده"
+
+#: includes/forms.php:13
+msgid "Registration form"
+msgstr "فرم ثبت نام"
+
+#: includes/forms.php:14
+msgid "Reset password form"
+msgstr "فرم بازیابی رمز عبور"
+
+#: includes/forms.php:12
+msgid "Login form"
+msgstr "فرم ورود"
+
+#: includes/forms.php:15
+msgid "Comments form"
+msgstr "فرم نظرسنجی"
+
+#: bws_menu/bws_menu.php:798
+msgid "Send to custom email &#187;"
+msgstr "ارسال ایمیل سفارشی &#187;"
+
+#: bws_menu/bws_menu.php:791
+msgid "Send to support"
+msgstr "ارسال به پشتیبان"
+
+#: bws_menu/bws_menu.php:249
+msgid "Inactive Plugins"
+msgstr "افزونه‌های غیرفعال"
+
+#: bws_menu/bws_menu.php:244
+msgid "Active Plugins"
+msgstr "پلاگین‌های فعال"
+
+#: bws_menu/bws_menu.php:760
+msgid "Already Installed"
+msgstr "نصب شده است"
+
+#: bws_menu/bws_menu.php:751
+msgid "By %s"
+msgstr "توسط %s"
+
+#: bws_menu/bws_menu.php:687 includes/forms.php:126 includes/forms.php:151
+#: includes/forms.php:155
+msgid "Install Now"
+msgstr "اکنون نصب کنید"
+
+#: bws_menu/bws_menu.php:673 bws_menu/bws_menu.php:682
+msgid "Activate this plugin"
+msgstr "فعال‌سازی افزونه"
+
+#: bws_menu/product_list.php:14
+msgid "Recommended"
+msgstr "پیشنهاد شده"
+
+#: bws_menu/bws_menu.php:514 bws_menu/bws_menu.php:762
+msgid "Installed"
+msgstr "نصب شده"
+
+#: bws_menu/bws_menu.php:506 bws_menu/bws_menu.php:541
+#: bws_menu/bws_menu.php:714
+msgid "All"
+msgstr "همه"
+
+#: bws_menu/bws_menu.php:329 bws_menu/bws_menu.php:350
+#: bws_menu/bws_menu.php:739 bws_menu/deprecated.php:28
+msgid "Themes"
+msgstr "پوسته‌ها"
+
+#: bws_menu/bws_menu.php:321 bws_menu/bws_menu.php:342
+#: bws_menu/bws_menu.php:427 bws_menu/deprecated.php:27
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+#: bws_menu/bws_menu.php:334 bws_menu/bws_menu.php:358
+#: bws_menu/bws_menu.php:775
+msgid "System status"
+msgstr "وضعیت سیستم"
+
+#: bws_menu/bws_menu.php:487
+msgid "Client Area"
+msgstr "ناحیه کلاینت"
+
+#: bws_menu/bws_menu.php:221
+msgid "PHP Version"
+msgstr "نسخه PHP"
+
+#: bws_menu/bws_menu.php:240
+msgid "SQL Mode"
+msgstr "حالت SQL"
+
+#: bws_menu/bws_menu.php:239
+msgid "MySQL version"
+msgstr "نسخه MySQL"
+
+#: bws_menu/bws_menu.php:224
+msgid "Memory Usage"
+msgstr "حافظه مصرفی"
+
+#: bws_menu/bws_menu.php:220
+msgid "Server"
+msgstr "سرور"
+
+#: bws_menu/bws_menu.php:219
+msgid "Operating System"
+msgstr "سیستم عامل"
+
+#: bws_menu/bws_menu.php:193 bws_menu/bws_menu.php:194
+#: bws_menu/bws_menu.php:195 bws_menu/bws_menu.php:199
+msgid "No"
+msgstr "نه"
+
+#: bws_menu/bws_menu.php:187 bws_menu/bws_menu.php:188
+#: bws_menu/bws_menu.php:189 bws_menu/bws_menu.php:190
+#: bws_menu/bws_menu.php:191 bws_menu/bws_menu.php:192
+#: bws_menu/bws_menu.php:201
+msgid "N/A"
+msgstr "هیچ"
+
+#: bws_menu/bws_menu.php:186
+msgid "Off"
+msgstr "خاموش"
+
+#: bws_menu/bws_menu.php:186
+msgid "On"
+msgstr "روشن"
+
+#: bws_menu/bws_menu.php:183
+msgid "Not set"
+msgstr "تنظیم نشده"
+
+#: bws_menu/bws_functions.php:1066
+msgid "No, go back to the settings page"
+msgstr "نه، به صفحه تنظیمات بازگردید"
+
+#: bws_menu/bws_functions.php:1065
+msgid "Yes, restore all settings"
+msgstr "بله، بازنشانی همه تنظیمات"
+
+#: bws_menu/deprecated.php:209
+msgid "Restore settings"
+msgstr "بازنشانی تنظیمات"
+
+#: bws_menu/bws_functions.php:201
+msgid "The Pro Trial license will expire on"
+msgstr "مجوز شما منقضی خواهد شد در"
+
+#: bws_menu/bws_functions.php:198
+msgid "Notice: You are using the Pro Trial license of plugin."
+msgstr "نکته: شما در حال استفاده از نسخه حرفه‌ای به صورت آزمایشی افزونه هستید."
+
+#: bws_menu/bws_functions.php:196
+msgid "Notice: You are using the Pro Trial license of %s plugin."
+msgstr "نکته: شما در حال استفاده از نسخه حرفه‌ای به صورت آزمایشی افزونه %s هستید."
+
+#: bws_menu/bws_functions.php:176
+msgid "Your license has expired. To continue getting top-priority support and plugin updates, you should extend it."
+msgstr "متأسفانه مجوز شما منقضی شده است. برای ادامه دریافت پشتیبانی برتر و به روز رسانی افزونه ، باید آن را  گسترش دهید."
+
+#: bws_menu/bws_functions.php:174
+msgid "Notice: Your Pro Trial license has expired. To continue using the plugin, you should buy a Pro license"
+msgstr "توجه: مجوز نسخه حرفه‌ای به صورت آزمایشی شما منقضی شده است. برای ادامه استفاده از افزونه، باید مجوز حرفه‌ای را خریداری کنید"
+
+#: bws_menu/bws_functions.php:155
+msgid "You can use one license of the Pro plugin for one domain only. Please check and edit your license or domain if necessary using your personal Client Area. We strongly recommend you to solve the problem within 24 hours, otherwise the Pro plugin will be deactivated."
+msgstr "از یک مجوز افزونه حرفه‌ای فقط برای یک دامنه استفاده کنید. لطفاً مجوز یا دامنه خود را در صورت لزوم با استفاده از منطقه مشتری شخصی خود بررسی و ویرایش کنید. ما اکیداً به شما توصیه می کنیم که مشکل را ظرف 24 ساعت حل کنید ، در غیر این صورت افزونه Pro غیرفعال می شود."
+
+#: bws_menu/bws_functions.php:155
+msgid "WARNING: Illegal use notification"
+msgstr "هشدار: اطلاعیه استفاده غیرقانونی"
+
+#: bws_menu/deprecated.php:129
+msgid "(your username is the email address specified during the purchase). If necessary, please submit \"Lost your password?\" request."
+msgstr "(نام کاربری شما، آدرس ایمیل مشخص شده در هنگام خرید است). در صورت لزوم ، لطفاً درخواست \"گذرواژه خود را فراموش کرده اید؟\" ارسال کنید."
+
+#: bws_menu/deprecated.php:129
+msgid "If necessary, you can check if the license key is correct or reenter it in the field below. You can find your license key on your personal page - Client Area - on our website"
+msgstr "در صورت لزوم، می‌توانید درستی کلید مجوز را بررسی کنید یا دوباره آن را در قسمت زیر وارد کنید. شما می‌توانید کلید مجوز خود را در صفحه شخصی خود - ناحیه مشتری - در وب‌سایت ما پیدا کنید"
+
+#: bws_menu/bws_menu.php:148 bws_menu/class-bws-settings.php:1018
+msgid "The license key is valid."
+msgstr "کلید لایسنس درست است."
+
+#: bws_menu/class-bws-settings.php:1016
+msgid "The Pro Trial license key is valid."
+msgstr "نکته: مجوز نسخه حرفه‌ای به صورت آزمایشی معتبر است."
+
+#: bws_menu/class-bws-settings.php:1011
+msgid "Unfortunately, the Pro Trial licence was already installed to this domain. The Pro Trial license can be installed only once."
+msgstr "متأسفانه مجوز نسخه حرفه‌ای به صورت آزمایشی قبلاً در این دامنه نصب شده بود. مجوز نسخه حرفه‌ای به صورت آزمایشی فقط یکبار قابل نصب است."
+
+#: bws_menu/class-bws-settings.php:1009
+msgid "Unfortunately, you have exceeded the number of available tries."
+msgstr "متاسفانه، شما به بیشینه تعداد تلاش رسیدید."
+
+#: bws_menu/class-bws-settings.php:1007
+msgid "This license key is valid, but Your license has expired. If you want to update our plugin in future, you should extend the license."
+msgstr "این کلید مجوز معتبر است، اما مجوز شما به پایان رسیده است. اگر می‌خواهید افزونه ما را در آینده به‌روز کنید‌، باید مجوز را تمدید کنید."
+
+#: bws_menu/class-bws-settings.php:1005 bws_menu/class-bws-settings.php:1120
+msgid "This license key is bound to another site."
+msgstr "این کلید مجوز به سایت دیگری متصل است."
+
+#: bws_menu/bws_menu.php:138 bws_menu/bws_menu.php:385
+#: bws_menu/deprecated.php:172
+msgid "Unfortunately, you have exceeded the number of available tries per day."
+msgstr "متاسفانه، شما به حداکثر تعداد تلاش در طول روز رسیدید."
+
+#: bws_menu/class-bws-settings.php:1029 bws_menu/deprecated.php:155
+msgid "In order to continue using the plugin it is necessary to buy a %s license."
+msgstr "برای ادامه استفاده از افزونه، باید مجوز %s خریداری کنید."
+
+#: bws_menu/bws_functions.php:90
+msgid "Plugins page"
+msgstr "صفحه پلاگین"
+
+#: bws_menu/bws_functions.php:88
+msgid "Back to the WordPress"
+msgstr "بازگشت به وردپرس"
+
+#: bws_menu/bws_functions.php:85 bws_menu/bws_functions.php:283
+msgid "requires"
+msgstr "نیاز دارد"
+
+#: bws_menu/bws_menu.php:160 bws_menu/class-bws-settings.php:1136
+msgid "Something went wrong. Try again later or upload the plugin manually. We are sorry for inconvenience."
+msgstr "مشکلی رخ داده است. بعداً دوباره سعی کنید یا افزونه را به صورت دستی آپلود کنید. برای ناراحتی پیش آمده متاسفیم."
+
+#: bws_menu/deprecated.php:189 bws_menu/deprecated.php:233
+msgid "Please, go to"
+msgstr "لطفاً، بروید به"
+
+#: bws_menu/class-bws-settings.php:1173
+msgid "Please, enter Your license key"
+msgstr "لطفاً کلید مجوز خود را وارد کنید"
+
+#: bws_menu/bws_menu.php:142 bws_menu/class-bws-settings.php:1126
+msgid "Unfortunately, the Pro licence was already installed to this domain. The Pro Trial license can be installed only once."
+msgstr "متأسفانه مجوز نسخه حرفه‌ای به صورت آزمایشی قبلاً در این دامنه نصب شده بود. مجوز نسخه حرفه‌ای به صورت آزمایشی فقط یکبار قابل نصب است."
+
+#: bws_menu/bws_menu.php:140
+msgid "Unfortunately, Your license has expired. To continue getting top-priority support and plugin updates, you should extend it in your %s"
+msgstr "متأسفانه مجوز شما منقضی شده است. برای ادامه دریافت پشتیبانی برتر و به روز رسانی افزونه ، باید آن را در %s خود گسترش دهید"
+
+#: bws_menu/class-bws-settings.php:904 bws_menu/class-bws-settings.php:1122
+#: bws_menu/deprecated.php:275
+msgid "Unfortunately, you have exceeded the number of available tries per day. Please, upload the plugin manually."
+msgstr "متاسفانه، شما به حداکثر تعداد تلاش در طول روز رسیدید. لطفا، افزونه را به طور دستی بارگزاری کنید."
+
+#: bws_menu/bws_menu.php:127 bws_menu/class-bws-settings.php:997
+#: bws_menu/class-bws-settings.php:1074 bws_menu/class-bws-settings.php:1112
+msgid "We are sorry for inconvenience."
+msgstr "ما براي يوجود آمدن اين مشكل متاسفيم."
+
+#: bws_menu/bws_menu.php:127 bws_menu/class-bws-settings.php:997
+#: bws_menu/class-bws-settings.php:1074 bws_menu/class-bws-settings.php:1112
+msgid "Something went wrong. Please try again later. If the error appears again, please contact us"
+msgstr "مشکلی پیش آمده، بعدا دوباره تلاش نمایید. اگر این مشکل دوباره پیش آمد، لطفا با ما در ارتباط باشید"
+
+#: bws_menu/bws_menu.php:105 bws_menu/class-bws-settings.php:971
+msgid "Wrong license key"
+msgstr "کلید لایسنس اشتباه"
+
+#: bws_menu/bws_functions.php:155 bws_menu/bws_functions.php:247
+#: bws_menu/bws_menu.php:754 bws_menu/class-bws-settings.php:189
+msgid "Learn More"
+msgstr "ادامه مطلب"
+
+#: bws_menu/bws_functions.php:244
+msgid "Extend standard plugin functionality with new great options."
+msgstr "قابلیت پلاگین استاندارد را با گزینه‌های جدید عالي گسترش دهید."
+
+#: bws_menu/bws_functions.php:243
+msgid "version!"
+msgstr "نسخه!"
+
+#: bws_menu/bws_functions.php:243
+msgid "to"
+msgstr "به"
+
+#: bws_menu/bws_functions.php:243
+msgid "It’s time to upgrade your"
+msgstr "وقت آن است که ارتقا دهید"
+
+#: bws_menu/bws_functions.php:87
+msgid "or higher, that is why it has been deactivated! Please upgrade WordPress and try again."
+msgstr "و یا بالاتر، به همین دلیل غیر فعال شده است! لطفا وردپرس را ارتقا دهید و دوباره تلاش کنید."

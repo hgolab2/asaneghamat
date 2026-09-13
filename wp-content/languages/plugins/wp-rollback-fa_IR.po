@@ -1,0 +1,275 @@
+# Translation of Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-08-10 06:55:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release)\n"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:99
+msgid "See all Pro features"
+msgstr "مشاهده همه ویژگی‌های Pro"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:75
+msgid "Pro archives your version before every update and supports premium plugins like Elementor, Gravity Forms, and WooCommerce. Next time something breaks, you're one click from safety."
+msgstr "نسخه Pro پیش از هر به‌روزرسانی، نسخه شما را بایگانی می‌کند و از افزونه‌های حرفه‌ای مانند Elementor، Gravity Forms و WooCommerce پشتیبانی می‌کند. دفعه بعد که چیزی خراب شد، فقط یک کلیک تا امنیت فاصله دارید."
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:71
+msgid "Rollback any plugin — not just WordPress.org."
+msgstr "هر افزونه‌ای را بازگردانی کنید — نه فقط افزونه‌های WordPress.org."
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:67
+msgid "WP Rollback Pro"
+msgstr "WP Rollback Pro"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:23
+msgid "Activity logs"
+msgstr "گزارش‌های فعالیت"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:22
+msgid "Auto-archives"
+msgstr "بایگانی خودکار"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:21
+msgid "Premium plugins"
+msgstr "افزونه‌های حرفه‌ای"
+
+#: src/PluginSetup/PluginMeta.php:73
+msgid "Go Pro!"
+msgstr "حرفه‌ای شوید!"
+
+#: build/tools.js:24 src/Rollbacks/resources/modals/registerTemplates.js:19
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:58
+msgid "Rollback Complete"
+msgstr "بازگردانی تکمیل شد"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:96
+msgid "Upgrade Now"
+msgstr "اکنون ارتقا دهید"
+
+#. translators: 1: Asset name 2: Asset version
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:41
+msgid "%1$s has been successfully rolled back to version %2$s."
+msgstr "%1$s با موفقیت به نسخه %2$s بازگردانی شد."
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/ThemeList.jsx:21
+msgid "Select a theme below to rollback to a previous version."
+msgstr "برای بازگردانی به نسخه قبلی، یک پوسته را از زیر انتخاب کنید."
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/ThemeList.jsx:20
+msgid "Themes"
+msgstr "پوسته‌ها"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:78
+msgid "These versions would be available for rollback with WP Rollback Pro:"
+msgstr "این نسخه‌ها با WP Rollback Pro برای بازگردانی در دسترس خواهند بود:"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:76
+msgid "Available Versions (Pro Feature)"
+msgstr "نسخه‌های موجود (ویژگی نسخه حرفه‌ای)"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:66
+msgid "is not available on WordPress.org and requires WP Rollback Pro for version control."
+msgstr "در مخزن WordPress.org موجود نیست و برای کنترل نسخه نیاز به WP Rollback Pro دارد."
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:54
+msgid "This premium asset requires WP Rollback Pro for safe version rollbacks."
+msgstr "این آیتم پریمیوم برای بازگردانی نسخه ایمن، نیاز به WP Rollback Pro دارد."
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:52
+msgid "Unlock Premium Rollbacks"
+msgstr "باز کردن قفل بازگردانی‌های پریمیوم"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:39
+msgid "Error"
+msgstr "خطا"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:123
+msgid "Learn More About Pro Features"
+msgstr "درباره ویژگی‌های حرفه‌ای بیشتر بدانید"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:116
+msgid "Go Back"
+msgstr "بازگشت"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:113
+msgid "Upgrade to WP Rollback Pro"
+msgstr "ارتقا به WP Rollback Pro"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:94
+msgid "Try WP Rollback Pro risk-free. If you're not completely satisfied, get your money back within 30 days."
+msgstr "نسخه حرفه‌ای را بدون ریسک امتحان کنید. اگر کاملاً راضی نبودید، وجه شما تا ۳۰ روز بازگشت داده می‌شود."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:92
+msgid "30-Day Money-Back Guarantee"
+msgstr "ضمانت بازگشت وجه ۳۰ روزه"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:62
+msgid "Why Upgrade to WP Rollback Pro?"
+msgstr "چرا به نسخه حرفه‌ای ارتقا دهید؟"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:52
+msgid "Complete audit trail of all rollbacks with timestamps, user tracking, and detailed logs."
+msgstr "مسیر کامل ممیزی تمام بازگردانی‌ها همراه با برچسب زمانی، ردگیری کاربر و لاگ‌های دقیق."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:51
+msgid "Advanced Activity Logging"
+msgstr "لاگ‌گذاری پیشرفته فعالیت‌ها"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:44
+msgid "Add detailed notes to each rollback for better team coordination and change tracking."
+msgstr "افزودن یادداشت‌های دقیق به هر بازگردانی برای هماهنگی بهتر تیمی و پیگیری تغییرات."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:43
+msgid "Rollback Notes & Documentation"
+msgstr "یادداشت‌ها و مستندات بازگردانی"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:36
+msgid "For premium assets, creates a zip archive of the current version and stores the archive."
+msgstr "برای محصولات پریمیوم، یک آرشیو زیپ از نسخه فعلی ایجاد و ذخیره می‌کند."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:35
+msgid "Version Preservation"
+msgstr "حفاظت از نسخه"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:28
+msgid "Roll back any premium plugin or theme from any marketplace - not just WordPress.org."
+msgstr "بازگردانی هر افزونه یا پوسته پریمیوم از هر مارکت‌پلیسی - نه فقط مخزن WordPress.org."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:27
+msgid "Premium Plugin & Theme Rollbacks"
+msgstr "بازگردانی افزونه و پوسته‌های پریمیوم"
+
+#: build/tools.js:22 src/Rollbacks/resources/pages/PluginList.jsx:22
+msgid "Select a plugin below to rollback to a previous version."
+msgstr "برای بازگردانی به نسخه قبلی، یک افزونه را از زیر انتخاب کنید."
+
+#: build/tools.js:22 src/Rollbacks/resources/pages/PluginList.jsx:21
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:81
+msgid "Get complete control over every plugin on your site with automated backups, rollback notes for your team, and support for premium plugins from any marketplace."
+msgstr "با پشتیبان‌گیری خودکار، یادداشت‌های بازگردانی برای تیمتان و پشتیبانی از افزونه‌های پریمیوم از هر مارکتی، کنترل کاملی بر روی هر افزونه در سایت خود داشته باشید."
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:79
+msgid "The Safest Way to Rollback Premium Plugins & Themes"
+msgstr "ایمن‌ترین راه برای بازگردانی افزونه‌ها و پوسته‌های پریمیوم"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:71
+msgid "Rollback a Theme"
+msgstr "بازگردانی یک پوسته"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:56
+msgid "Theme Version Rollback"
+msgstr "بازگردانی نسخه پوسته"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:48
+msgid "Rollback a Plugin"
+msgstr "بازگردانی یک افزونه"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:36
+#: src/Rollbacks/resources/pages/Dashboard.jsx:59
+msgid "Revert any WordPress.org plugin to a previous version with just a few clicks. Choose the plugin and version you'd like to restore."
+msgstr "هر افزونه‌ای از WordPress.org را تنها با چند کلیک به نسخه قبلی بازگردانید. افزونه و نسخه‌ای که می‌خواهید بازیابی کنید را انتخاب نمایید."
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:33
+msgid "Plugin Version Rollback"
+msgstr "بازگردانی نسخه افزونه"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:21
+msgid "With WP Rollback you can go back to a previous WordPress.org plugin or theme version with ease. Which action would you like to perform today?"
+msgstr "با WP Rollback می‌توانید به راحتی به نسخه قبلی هر افزونه یا پوسته WordPress.org بازگردید. امروز چه کاری می‌خواهید انجام دهید؟"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:19
+msgid "Rollback a Plugin or Theme"
+msgstr "بازگردانی یک افزونه یا پوسته"
+
+#: build/tools.js:1 src/Rollbacks/resources/layout/Header.jsx:30
+#: src/Rollbacks/resources/pages/Dashboard.jsx:91
+msgid "Upgrade to Pro"
+msgstr "ارتقا به نسخه حرفه‌ای"
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:87
+msgid "Validating package integrity…"
+msgstr "در حال اعتبارسنجی یکپارچگی بسته..."
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:59
+msgid "Basic validation complete. 🔒 WP Rollback Pro includes advanced package integrity scanning. Upgrade at wprollback.com/pricing"
+msgstr "اعتبارسنجی اولیه کامل شد. 🔒 WP Rollback Pro شامل اسکن پیشرفته یکپارچگی بسته است. ارتقا در wprollback.com/pricing"
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:53
+msgid "Package not found for rollback."
+msgstr "بسته‌ای برای بازگردانی یافت نشد."
+
+#: src/Rollbacks/PluginRollback.php:63
+msgid "The requested version is not available."
+msgstr "نسخه درخواست شده موجود نیست."
+
+#: src/Rollbacks/PluginRollback.php:55
+msgid "Cannot rollback to the same version."
+msgstr "نمی‌توان به همان نسخه فعلی بازگردانی کرد."
+
+#: src/Rollbacks/PluginRollback.php:47
+msgid "Invalid version number provided."
+msgstr "شماره نسخه نامعتبر ارائه شده است."
+
+#: src/Rollbacks/PluginRollback.php:40
+msgid "You do not have permission to perform rollbacks."
+msgstr "شما مجوز انجام بازگردانی را ندارید."
+
+#: src/PluginSetup/PluginMeta.php:59 build/tools.js:1
+#: src/Rollbacks/resources/layout/Header.jsx:21
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: src/PluginSetup/PluginMeta.php:45 build/tools.js:1
+#: src/Rollbacks/resources/layout/Header.jsx:18
+msgid "Documentation"
+msgstr "مستندات"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: wp-rollback.php
+msgid "https://wprollback.com/"
+msgstr "https://wprollback.com/"
+
+#. Description of the plugin
+#: wp-rollback.php
+msgid "Rollback (or forward) any WordPress.org plugin, theme or block like a boss."
+msgstr "بازگردانی (یا به‌روزرسانی به جلو) هر افزونه، پوسته یا بلوک وردپرس مثل یک حرفه‌ای."
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: wp-rollback.php src/Rollbacks/Actions/RegisterAdminMenu.php:26
+#: src/Rollbacks/Actions/RegisterAdminMenu.php:34
+msgid "WP Rollback"
+msgstr "WP Rollback"

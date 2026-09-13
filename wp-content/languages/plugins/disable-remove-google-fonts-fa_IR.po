@@ -1,0 +1,233 @@
+# Translation of Plugins - Disable and Remove Google Fonts | GDPR &amp; DSGVO friendly - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - Disable and Remove Google Fonts | GDPR &amp; DSGVO friendly - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-25 18:47:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - Disable and Remove Google Fonts | GDPR &amp; DSGVO friendly - Stable (latest release)\n"
+
+#: admin/class-drgf-admin.php:356
+msgid "create a support ticket"
+msgstr "ایجاد تیکت پشتیبانی"
+
+#: admin/class-drgf-admin.php:356
+msgid "If there are any font requests still present, please"
+msgstr "اگر هنوز درخواست فونتی وجود دارد، لطفاً"
+
+#: admin/class-drgf-admin.php:355
+msgid "Google Fonts Checker"
+msgstr "بررسی‌کننده فونت‌های گوگل"
+
+#: admin/class-drgf-admin.php:355
+msgid "We also have a free online checker tool that you can test your website with here:"
+msgstr "همچنین یک ابزار بررسی برخط رایگان داریم که می‌توانید وبگاه خود را با آن در اینجا آزمایش کنید:"
+
+#: admin/class-drgf-admin.php:353
+msgid "To test your website, visit any page and use the admin bar menu button to check for Google Fonts."
+msgstr "برای آزمایش وبگاه خود، یک برگه را باز کنید و از دکمۀ نوار مدیریت برای بررسی فونت‌های گوگل استفاده کنید."
+
+#: admin/class-drgf-admin.php:356
+msgid "and our team will happily look into it for you."
+msgstr "و گروه ما با کمال میل آن را برای شما بررسی خواهد کرد."
+
+#. Author URI of the plugin
+#: disable-remove-google-fonts.php
+msgid "https://fontsplugin.com"
+msgstr "https://fontsplugin.com"
+
+#. Author of the plugin
+#: disable-remove-google-fonts.php
+msgid "Fonts Plugin"
+msgstr "افزونه فونت‌ها"
+
+#. Plugin URI of the plugin
+#: disable-remove-google-fonts.php
+msgid "https://wordpress.org/plugins/disable-remove-google-fonts/"
+msgstr "https://fa.wordpress.org/plugins/disable-remove-google-fonts/"
+
+#: inc/check-google-fonts.php:303
+msgid "CSS: url() in %s"
+msgstr "CSS: url() در %s"
+
+#: inc/check-google-fonts.php:292
+msgid "Found @import statement in stylesheet: %s"
+msgstr "دستور @import در استایل‌شیت %s یافت شد"
+
+#: inc/check-google-fonts.php:291
+msgid "CSS: @import in %s"
+msgstr "CSS: @import در %s"
+
+#: inc/check-google-fonts.php:176
+msgid "HTML: Script src attribute"
+msgstr "HTML: ویژگی src اسکریپت"
+
+#. translators: %s Link to DRGF welcome page.
+#: admin/class-drgf-notice.php:114
+msgid "Thank you for installing <strong>Disable & Remove Google Fonts</strong>! <a href=\"%s\">Finish the setup process</a>."
+msgstr "ممنون بابت نصب <strong>Disable & Remove Google Fonts</strong>! <a href=\"%s\">فرایند نصب را کامل کنید</a>."
+
+#: admin/class-drgf-admin.php:472
+msgid "Check Google Fonts"
+msgstr "بررسی فونت‌های گوگل"
+
+#. translators: %s: formatted date/time
+#: admin/class-drgf-admin.php:339
+msgid "Last checked: %s"
+msgstr "آخرین بررسی: %s"
+
+#. translators: %s: formatted date/time
+#: admin/class-drgf-admin.php:279
+msgid "Checked: %s"
+msgstr "بررسی شد: %s"
+
+#. translators: %s: URL of tested page
+#: admin/class-drgf-admin.php:269
+msgid "Tested page: %s"
+msgstr "برگۀ آزمایش‌شده: %s"
+
+#: admin/class-drgf-admin.php:291
+msgid "Analyzing captured page..."
+msgstr "تجزیه و تحلیل برگۀ ثبت شده..."
+
+#: admin/class-drgf-admin.php:105 admin/class-drgf-admin.php:345
+msgid "Error:"
+msgstr "خطا:"
+
+#: admin/class-drgf-admin.php:101 admin/class-drgf-admin.php:326
+msgid "No Google Fonts detected!"
+msgstr "هیچ فونت گوگلی شناسایی نشد!"
+
+#: admin/class-drgf-admin.php:100 admin/class-drgf-admin.php:300
+msgid "Google Fonts detected!"
+msgstr "فونت گوگلی شناسایی شد!"
+
+#: admin/class-drgf-admin.php:99
+msgid "Checking for Google Fonts..."
+msgstr "بررسی فونت‌های گوگل..."
+
+#: admin/class-drgf-admin.php:68
+msgid "Fonts Check Results"
+msgstr "نتایج بررسی فونت‌ها"
+
+#: admin/class-drgf-admin.php:67 admin/class-drgf-admin.php:250
+msgid "Google Fonts Check Results"
+msgstr "نتایج بررسی فونت‌های گوگل"
+
+#: admin/class-drgf-admin.php:56 admin/class-drgf-admin.php:57
+msgid "Google Fonts"
+msgstr "فونت‌های گوگل"
+
+#. Description of the plugin
+#: disable-remove-google-fonts.php
+msgid "Optimize frontend performance by removing Google Fonts. GDPR-friendly."
+msgstr "با حذف فونت‌های گوگل، عملکرد فرانت‌اند را بهینه کنید. سازگار با GDPR."
+
+#: admin/class-drgf-admin.php:106
+msgid "An unknown error occurred."
+msgstr "یک خطای ناشناخته رخ داد."
+
+#. translators: %d: number of stylesheets
+#: admin/class-drgf-admin.php:104 admin/class-drgf-admin.php:330
+msgid "Checked %d stylesheet(s) and found no Google Fonts references."
+msgstr "%d استایل‌شیت را بررسی کردم و هیچ ارجاعی به فونت‌های گوگل پیدا نکردم."
+
+#: inc/check-google-fonts.php:327
+msgid "Found Google Fonts reference in stylesheet: %s"
+msgstr "ارجاع به فونت‌های گوگل در فایل استایل‌شیت یافت شد: %s"
+
+#: inc/check-google-fonts.php:304
+msgid "Found url() reference in stylesheet: %s"
+msgstr "ارجاع url() در استایل‌شیت %s یافت شد."
+
+#: inc/check-google-fonts.php:326
+msgid "CSS: Other reference in %s"
+msgstr "CSS: ارجاع دیگر در %s"
+
+#: admin/class-drgf-admin.php:103 admin/class-drgf-admin.php:310
+msgid "References Found:"
+msgstr "ارجاع‌ها یافت شد:"
+
+#: inc/check-google-fonts.php:163
+msgid "HTML: JavaScript reference"
+msgstr "HTML: ارجاع JavaScript"
+
+#: inc/check-google-fonts.php:100
+msgid "HTML: @font-face in inline style"
+msgstr "HTML: @font-face در استایل توکار"
+
+#: inc/check-google-fonts.php:146
+msgid "HTML: @import in inline style"
+msgstr "HTML: @import در استایل توکار"
+
+#: inc/check-google-fonts.php:123
+msgid "HTML: Inline style tag"
+msgstr "HTML: تگ استایل توکار"
+
+#: inc/check-google-fonts.php:83
+msgid "HTML: Link tag"
+msgstr "HTML: تگ لینک"
+
+#: admin/class-drgf-admin.php:129
+msgid "No HTML provided."
+msgstr "HTML ارائه نشده است."
+
+#: admin/class-drgf-admin.php:124 admin/class-drgf-admin.php:159
+#: admin/class-drgf-notice.php:80
+msgid "You do not have permission to perform this action."
+msgstr "شما مجاز به انجام این کار نیستید."
+
+#: admin/class-drgf-admin.php:119 admin/class-drgf-admin.php:154
+#: admin/class-drgf-notice.php:75
+msgid "Security check failed."
+msgstr "بررسی امنیتی ناموفق بود."
+
+#: admin/class-drgf-admin.php:145
+msgid "Page HTML captured successfully."
+msgstr "برگۀ HTML با موفقیت ثبت شد."
+
+#: admin/class-drgf-admin.php:108
+msgid "This feature is only available on public-facing pages. Please visit a frontend page to check for Google Fonts."
+msgstr "این ویژگی فقط در صفحات عمومی موجود است. لطفاً برای بررسی فونت‌های گوگل، از برگۀ کاربری خود بازدید کنید."
+
+#: admin/class-drgf-admin.php:107
+msgid "The check timed out. Please try again."
+msgstr "مهلت بررسی تمام شد. لطفاً دوباره تلاش کنید."
+
+#. translators: %1$d: number of references, %2$d: number of stylesheets
+#: admin/class-drgf-admin.php:102 admin/class-drgf-admin.php:304
+msgid "Found %1$d reference(s) across %2$d stylesheet(s)."
+msgstr "%1$d ارجاع در میان %2$d استایل‌شیت یافت شد."
+
+#: inc/check-google-fonts.php:147
+msgid "Found in @import statement in inline &lt;style&gt; tag"
+msgstr "در دستور @import در تگ توکار &lt;style&gt; یافت شد"
+
+#: inc/check-google-fonts.php:84
+msgid "Found in &lt;link&gt; tag in page HTML"
+msgstr "در تگ &lt;link&gt; در برگۀ HTML یافت شد"
+
+#: inc/check-google-fonts.php:101
+msgid "Found in @font-face src: url() declaration in inline &lt;style&gt; tag"
+msgstr "در تعریف ‎@font-face src: url()‎ در تگ توکار &lt;style&gt; یافت شد."
+
+#: inc/check-google-fonts.php:177
+msgid "Found in &lt;script src&gt; attribute in page HTML"
+msgstr "در ویژگی ‎&lt;script src&gt;‎ در برگۀ HTML یافت شد."
+
+#: inc/check-google-fonts.php:164
+msgid "Found in inline &lt;script&gt; tag in page HTML"
+msgstr "در تگ توکار &lt;script&gt; در برگۀ HTML یافت شد."
+
+#: inc/check-google-fonts.php:124
+msgid "Found in url() declaration in inline &lt;style&gt; tag"
+msgstr "در تعریف url() در تگ توکار &lt;style&gt; یافت شد."
+
+#. Plugin Name of the plugin
+#: disable-remove-google-fonts.php
+msgid "Disable & Remove Google Fonts"
+msgstr "غیرفعال و حذف کردن فونت‌های گوگل"

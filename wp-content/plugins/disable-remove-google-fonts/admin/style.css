@@ -1,0 +1,138 @@
+.drgf-admin__wrap {
+	margin: 50px 35px;
+	max-width: 960px;
+}
+
+.drgf-admin__wrap p {
+	font-size: 16px;
+	line-height: 1.6;
+	margin-top: 0;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+}
+
+.drgf-admin__wrap h3 {
+	font-size: 1.1rem !important;
+	margin: 1.5em 0 1em;
+	font-weight: bold;
+}
+
+.drgf-admin__wrap img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+	margin-bottom: 1rem
+}
+
+.drgf-admin__content {
+	background: #fff;
+	border-radius: 3px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 740px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+.drgf-admin__content__header {
+	border-top: 5px solid #b43534;
+	border-radius: 5px 5px 0 0;
+}
+
+.drgf-admin__content__header h1 {
+	font-size: 24px;
+	padding: 50px 50px 0;
+	margin: 0;
+}
+
+.drgf-admin__content__inner {
+	padding: 25px 50px 50px;
+}
+
+.drgf-admin__button.button {
+	color: #fff;
+	border-color: #a10000;
+	background: #a10000;
+	padding: 4px 16px;
+	font-size: 16px;
+	font-weight: 600;
+	height: auto;
+}
+
+.drgf-admin__button.button:hover {
+	color: #fff;
+	border-color: #a10000;
+	background: #a10000;
+	padding: 4px 16px;
+}
+
+.drgf-admin__button.button:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.drgf-check-loading {
+	margin-left: 10px;
+	color: #666;
+	font-style: italic;
+}
+
+.drgf-check-results {
+	margin: 20px 0;
+}
+
+.drgf-check-result {
+	padding: 15px;
+	border-radius: 4px;
+	margin: 15px 0;
+}
+
+.drgf-check-success {
+	background-color: #d4edda;
+	border-left: 4px solid #28a745;
+	color: #155724;
+}
+
+.drgf-check-warning {
+	background-color: #fff3cd;
+	border-left: 4px solid #ffc107;
+	color: #856404;
+}
+
+.drgf-check-error {
+	background-color: #f8d7da;
+	border-left: 4px solid #dc3545;
+	color: #721c24;
+}
+
+.drgf-check-result ul {
+	margin: 10px 0 0 20px;
+}
+
+.drgf-check-result li {
+	margin: 8px 0;
+}
+
+.drgf-check-result code {
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 2px 6px;
+	border-radius: 3px;
+	font-size: 0.9em;
+	word-break: break-all;
+}
+
+.drgf-check-time {
+	margin-top: 10px;
+	font-size: 0.9em;
+	opacity: 0.8;
+}
+
+@media only screen and (max-width: 960px) {
+	.drgf-admin__content {
+		max-width: 98%;
+		float: none;
+	}
+
+	.drgf-admin__wrap {
+			margin: 1%;
+	}
+}

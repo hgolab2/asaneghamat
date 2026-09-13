@@ -1,0 +1,466 @@
+# Translation of Plugins - WP Bottom Menu - Development (trunk) in Persian
+# This file is distributed under the same license as the Plugins - WP Bottom Menu - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-01 06:33:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - WP Bottom Menu - Development (trunk)\n"
+
+#: wp-bottom-menu.php:350
+msgid "Add a menu in \"WP Dashboard->Appearance->Menus\" and select Display location \"WP Bottom Menu\""
+msgstr "یک منو در \"پیشخوان > نمایش > فهرست ها\" اضافه کنید و گزینه نمایش در منوی شناور را انتخاب کنید."
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:512
+msgid "JavaScript onClick"
+msgstr "جاوا اسکریپت هنگام کلیک"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:278
+msgid "onClick"
+msgstr "هنگام کلیک"
+
+#: inc/customizer/customizer.php:465
+msgid "This option override account menu title. First name is shown, if there is no first name, the username is shown."
+msgstr "این گزینه عنوان منوی حساب کاربری را بازنویسی می کند، اگر نامی وجود نداشته باشد، نام کاربری نشان داده می شود."
+
+#: inc/customizer/customizer.php:464
+msgid "Show Account Name"
+msgstr "نمایش نام حساب کاربری"
+
+#: inc/customizer/customizer.php:452
+msgid "This option override cart menu title."
+msgstr "این گزینه عنوان منوی سبد خرید را بازنویسی می کند."
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:513
+msgid "Page Back"
+msgstr "صفحه برگشت"
+
+#. Author of the plugin
+#: wp-bottom-menu.php
+msgid "J4 & LiquidThemes"
+msgstr "J4 & LiquidThemes"
+
+#: inc/customizer/customizer.php:511
+msgid "FontAwesome v6"
+msgstr "FontAwesome نسخه 6"
+
+#: inc/customizer/customizer.php:508
+msgid "<u>For FontAwesome:</u> Add the names from (%1$s) to the \"Icon\" field.<br>Example:<code>fa-home</code><hr><u>For FontAwesome v6:</u> Add the names from (%3$s) to the \"Icon\" field.<br>Example:<code>fa-solid fa-house</code><hr><u>For SVG Icons:</u> simply paste your SVG code in the \"Icon\" field. SVG Icon Library: %2$s<br>Enable to use SVG <code>Settings > Select Icon Type > Custom SVG</code> "
+msgstr "<u>برای FontAwesome:</u> نام‌های (%1$s) را به قسمت \"Icon\" اضافه کنید.<br>مثال:<code>fa-home</code><hr><u>For FontAwesome v6:</u> نام‌ها را از (%3$s) به قسمت \"Icon\" اضافه کنید.<br>مثال:<code>fa-solid fa-house</code><hr><u>برای نمادهای SVG :</u> به سادگی کد SVG خود را در قسمت \"Icon\" قرار دهید. کتابخانه نماد SVG: %2$s<br>فعال کردن استفاده از SVG <code>تنظیمات > انتخاب نوع نماد > SVG سفارشی</code> "
+
+#: inc/customizer/customizer.php:118
+msgid "Add your post type with a comma. Example: post,product,my-post-type"
+msgstr "نوع پست سفارشی خود را با کاما اضافه کنید. مثال: post,product,my-post-type"
+
+#: inc/customizer/customizer.php:117
+msgid "Custom search post types"
+msgstr "جستجوی سفارشی در پست تایپ خاص"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:511
+msgid "Custom Menu"
+msgstr "منو سفارشی"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:510
+msgid "Search for custom post types"
+msgstr "جستجو در پست سفارشی"
+
+#: inc/multiple-select/multiple-select.php:54
+msgid "All Visitors"
+msgstr "همه بازدیدکنندگان"
+
+#: inc/customizer/customizer.php:276
+msgid "WP Bottom Menu will only appear in the user roles you select."
+msgstr "منوی شناور فقط برای نقش های کاربری که انتخاب می کنید ظاهر می شود."
+
+#: inc/customizer/customizer.php:275
+msgid "Select User Roles Condition"
+msgstr "انتخاب نقش های کاربری"
+
+#: inc/customizer/customizer.php:262
+msgid "Select products"
+msgstr "انتخاب محصولات"
+
+#: inc/customizer/customizer.php:248
+msgid "Single Post"
+msgstr "پست تکی"
+
+#: inc/customizer/customizer.php:236
+msgid "Select a page"
+msgstr "انتخاب برگه"
+
+#: inc/customizer/customizer.php:235
+msgid "Single Pages"
+msgstr "صفحات تکی"
+
+#: inc/customizer/customizer.php:223
+msgid "404 Page"
+msgstr "صفحه 404"
+
+#: inc/customizer/customizer.php:222
+msgid "Seach Results"
+msgstr "نتایج جستجو"
+
+#: inc/customizer/customizer.php:221
+msgid "Pages"
+msgstr "صفحات"
+
+#: inc/customizer/customizer.php:220
+msgid "Post"
+msgstr "نوشته"
+
+#: inc/customizer/customizer.php:219
+msgid "Front Page"
+msgstr "صفحه اول"
+
+#: inc/customizer/customizer.php:215
+msgid "Singular Elements"
+msgstr "المنت تکی"
+
+#: inc/customizer/customizer.php:203 inc/customizer/customizer.php:261
+msgid "Single Product"
+msgstr "محصول تکی"
+
+#: inc/customizer/customizer.php:202
+msgid "Single Products"
+msgstr "محصولات تکی"
+
+#: inc/customizer/customizer.php:201
+msgid "Product Tags"
+msgstr "برچسبهای محصول"
+
+#: inc/customizer/customizer.php:200
+msgid "Product Categories"
+msgstr "دسته بندی های محصول"
+
+#: inc/customizer/customizer.php:199
+msgid "Shop Page"
+msgstr "برگه فروشگاه"
+
+#: inc/customizer/customizer.php:198
+msgid "Product Archives"
+msgstr "آرشیو محصول"
+
+#: inc/customizer/customizer.php:194
+msgid "WooCommerce Elements"
+msgstr "المان های ووکامرس"
+
+#: inc/customizer/customizer.php:182
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: inc/customizer/customizer.php:181
+msgid "Category"
+msgstr "دسته بندی"
+
+#: inc/customizer/customizer.php:180
+msgid "Author"
+msgstr "نویسنده"
+
+#: inc/customizer/customizer.php:179 inc/customizer/customizer.php:197
+#: inc/customizer/customizer.php:218
+msgid "All"
+msgstr "همه"
+
+#: inc/customizer/customizer.php:176
+msgid "Archive Elements"
+msgstr "المان بایگانی"
+
+#: inc/customizer/customizer.php:164
+msgid "Woocommerce"
+msgstr "ووکامرس"
+
+#: inc/customizer/customizer.php:163
+msgid "Singular"
+msgstr "تکی"
+
+#: inc/customizer/customizer.php:162
+msgid "Archives"
+msgstr "آرشیوها"
+
+#: inc/customizer/customizer.php:161
+msgid "Entire Site"
+msgstr "کل سایت"
+
+#: inc/customizer/customizer.php:159 inc/customizer/customizer.php:177
+#: inc/customizer/customizer.php:195 inc/customizer/customizer.php:216
+#: inc/customizer/customizer.php:249
+msgid "Select a condition"
+msgstr "انتخاب شرط"
+
+#: inc/customizer/customizer.php:158
+msgid "Select the Archive"
+msgstr "انتخاب آرشیو"
+
+#: inc/customizer/customizer.php:144
+msgid "Currently the WP Bottom Menu will appear under the conditions you selected. Check this if you want it to be hidden under the conditions you choose."
+msgstr "در حال حاضر منوی پایینی تحت شرایطی که شما انتخاب کرده اید ظاهر می شود. اگر می خواهید تحت شرایطی که انتخاب می کنید پنهان شود، این را گزینه را فعال کنید."
+
+#: inc/customizer/customizer.php:143
+msgid "Reverse the condition?"
+msgstr "شرایط را معکوس کنیم؟"
+
+#: inc/customizer/customizer.php:132
+msgid "Conditions"
+msgstr "شرایط"
+
+#: inc/customizer/customizer.php:58
+msgid "FontAwesome (v6.1.1)"
+msgstr "FontAwesome (v6.1.1)"
+
+#. Author URI of the plugin
+#: wp-bottom-menu.php
+msgid "https://hub.liquid-themes.com/"
+msgstr "https://hub.liquid-themes.com/"
+
+#: inc/customizer/customizer.php:382
+msgid "Menu Hover/Active Icon Color"
+msgstr "رنگ آبکون فعال یا هاور شده منو"
+
+#: inc/customizer/customizer.php:358
+msgid "Menu Hover/Active Text Color"
+msgstr "رنگ متن فعال یا هاور شده منو"
+
+#: inc/customizer/customizer.php:92
+msgid "Open links in a new tab"
+msgstr "پیوندها را در یک تب جدید باز کنید"
+
+#: inc/customizer/customizer.php:332
+msgid "Menu Padding (px)"
+msgstr "فاصله داخلی منو (Px)"
+
+#: inc/customizer/customizer.php:451
+msgid "Show Cart Total"
+msgstr "نمایش کل سبد خرید"
+
+#: inc/customizer/customizer.php:441
+msgid "Cart Count Background Color"
+msgstr "رنگ پس زمینه تعداد در سبد خرید"
+
+#: inc/customizer/customizer.php:427
+msgid "Show Cart Count"
+msgstr "نمایش تعداد محصول سبد خرید"
+
+#: inc/customizer/customizer.php:415
+msgid "Customize Cart Item"
+msgstr "سفارشی کردن سبد خرید"
+
+#: inc/customizer/customizer.php:296
+msgid "Search Input Placeholder Text"
+msgstr "نگه دارنده متن برای فیلد جستجو"
+
+#: wp-bottom-menu.php:381
+msgctxt "wp-bottom-menu"
+msgid "Search"
+msgstr "جستجو"
+
+#: inc/customizer/customizer.php:510
+msgid "Remix Icon"
+msgstr "آیکون ریمیکس"
+
+#: inc/customizer/customizer.php:506
+msgid "How to use Icons?"
+msgstr "چگونه از آیکون ها استفاده کنیم؟"
+
+#: inc/customizer/customizer.php:57
+msgid "FontAwesome (v4.7)"
+msgstr "FontAwesome (v4.7)"
+
+#: inc/customizer/customizer.php:56
+msgid "Custom SVG"
+msgstr "SVG سفارشی"
+
+#: inc/customizer/customizer.php:54
+msgid "<u>Custom SVG:</u> Paste SVG Icon code.<br><u>FontAwesome:</u> Enable FontAwesome Library."
+msgstr "<u>SVG سفارشی : </u>کد SVG سفارشی را در اینجا قرار بدید.<br><u>FontAwesome:</u> کتابخانه FontAwesome را فعال کنید."
+
+#: inc/customizer/customizer.php:53
+msgid "Select Icon Type"
+msgstr "نوع آیکون"
+
+#: inc/customizer/customizer.php:404
+msgid "Disable title?"
+msgstr "عنوان غیرفعال شود؟"
+
+#: inc/customizer/customizer.php:509
+msgid "FontAwesome"
+msgstr "FontAwesome"
+
+#: inc/customizer/customizer.php:493
+msgid "Menu Item"
+msgstr "آیتم منو"
+
+#: inc/customizer/customizer.php:476
+msgid "Menu Items"
+msgstr "آیتم های منو"
+
+#: inc/customizer/customizer.php:394
+msgid "Menu Background Color"
+msgstr "رنگ پس زمینه منو"
+
+#: inc/customizer/customizer.php:370
+msgid "Menu Icon Color"
+msgstr "رنگ آیکن منو"
+
+#: inc/customizer/customizer.php:346
+msgid "Menu Text Color"
+msgstr "رنگ متن منو"
+
+#: inc/customizer/customizer.php:320
+msgid "Menu Icon Size (px)"
+msgstr "اندازه آیکون منو (px)"
+
+#: inc/customizer/customizer.php:308
+msgid "Menu Font Size (px)"
+msgstr "اندازه فونت منو (px)"
+
+#: inc/customizer/customizer.php:285
+msgid "Customize"
+msgstr "شخصی سازی"
+
+#: inc/customizer/customizer.php:105
+msgid "Recommended value: 9999"
+msgstr "مقدار توصیه شده : 9999"
+
+#: inc/customizer/customizer.php:104
+msgid "Menu Z-Index"
+msgstr "Z-Index منو"
+
+#: inc/customizer/customizer.php:80
+msgid "Active for any screen size?"
+msgstr "برای هر اندازه صفحه نمایش فعال باشد؟"
+
+#: inc/customizer/customizer.php:68
+msgid "Active The Menu (px)"
+msgstr "منو فعال (px)"
+
+#: inc/customizer/customizer.php:40
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:549
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:582
+msgid "Add Icon"
+msgstr "افزودن آیکون"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:544
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:574
+msgid "Remove Icon"
+msgstr "حذف آیکون"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:521
+msgid "Social icons"
+msgstr "آیکون های اجتماعی"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:509
+msgid "Search for post"
+msgstr "جستجوی پست"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:508
+msgid "Search for product"
+msgstr "جستجوی محصول"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:507
+msgid "Woocommerce Account"
+msgstr "حساب کاربری ووکامرس"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:506
+msgid "Woocommerce Cart"
+msgstr "سبد خرید ووکامرس"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:505
+msgid "Home Page"
+msgstr "صفحه اصلی"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:504
+msgid "Custom"
+msgstr "سفارشی"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:492
+msgid "Menu type"
+msgstr "نوع منو"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:485
+msgid "Upload Image"
+msgstr "بارگذاری تصویر"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:482
+msgid "Image"
+msgstr "تصویر"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:465
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:526
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:464
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:525
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
+msgstr "توجه: برخی از آیکون ها ممکن است در اینجا نمایش داده نشوند. می‌توانید فهرست کامل آیکون ها را در %1$s ببینید."
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:373
+msgid "Subtitle"
+msgstr "زیرعنوان"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:323
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:418
+msgid "Delete field"
+msgstr "حذف فیلد"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:308
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:408
+msgid "Shortcode"
+msgstr "کد کوتاه"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:285
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:300
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:387
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:401
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:541
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:563
+msgid "Link"
+msgstr "لینک"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:293
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:380
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:394
+msgid "Text"
+msgstr "متن"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:271
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:459
+msgid "Icon"
+msgstr "آیکون"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:264
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:366
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:247
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:256
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:350
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:358
+msgid "Color"
+msgstr "رنگ"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:37
+msgid "Customizer Repeater"
+msgstr "تکرار کننده سفارشی ساز"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:32
+msgid "Add new field"
+msgstr "اضافه کردن فیلد جدید"
+
+#. Description of the plugin
+#: wp-bottom-menu.php
+msgid "WP Bottom Menu allows you to add a woocommerce supported bottom menu to your site."
+msgstr "منوی شناور به شما امکان می دهد یک منوی پایینی شناور با پشتیبانی از ووکامرس را برای نسخه موبایل به سایت خود اضافه کنید."
+
+#. Plugin Name of the plugin
+#: wp-bottom-menu.php inc/customizer/customizer.php:30 wp-bottom-menu.php:146
+msgid "WP Bottom Menu"
+msgstr "منوی شناور وردپرس"

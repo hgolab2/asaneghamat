@@ -1,0 +1,1569 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Really Simple SSL Pro\n"
+"POT-Creation-Date: 2024-02-20 05:00-0800\n"
+"PO-Revision-Date: 2024-02-20 05:00-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: really-simple-ssl-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EDD_SL_Plugin_Updater.php:252
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:260
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:504
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:504
+msgid "Error"
+msgstr ""
+
+#: class-admin.php:14 class-headers.php:12 class-importer.php:12
+#: class-scan.php:44 csp-violation-endpoint.php:10
+#, php-format
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr ""
+
+#: class-admin.php:136
+msgid "Premium Support"
+msgstr ""
+
+#: class-admin.php:587
+msgid "Elementor mixed content successfully converted."
+msgstr ""
+
+#: class-admin.php:600 class-admin.php:605
+msgid "Potential redirect loop."
+msgstr ""
+
+#: class-admin.php:601
+msgid "No redirect to http detected."
+msgstr ""
+
+#: class-admin.php:606
+msgid "A redirect to http was detected. This might result in redirect loops."
+msgstr ""
+
+#: class-admin.php:606
+#, php-format
+msgid "%sRead more%s."
+msgstr ""
+
+#: class-admin.php:607
+msgid "Re-check the redirect"
+msgstr ""
+
+#: class-admin.php:620 class-admin.php:626
+msgid "TLS version"
+msgstr ""
+
+#: class-admin.php:621
+msgid "TLS version is up-to-date"
+msgstr ""
+
+#: class-admin.php:627
+msgid ""
+"Your site uses an outdated version of TLS. Upgrade to TLS 1.2 or TLS 1.3 to "
+"keep your site secure."
+msgstr ""
+
+#: class-admin.php:641
+msgid ""
+"Your site redirects 404 pages to the http:// version of your homepage. This "
+"can cause mixed content issues with images."
+msgstr ""
+
+#: class-admin.php:655
+msgid ""
+"Update Really Simple SSL Free to the latest version for optimal "
+"compatibility."
+msgstr ""
+
+#: class-admin.php:669
+msgid ""
+"You are using W3 Total Cache with Disk: Enhanced setting. This can prevent "
+"Security headers from being properly loaded."
+msgstr ""
+
+#: class-admin.php:684
+msgid ""
+"Update Notification: Starting with Really Simple SSL Pro 8.0, all Really "
+"Simple SSL (Free) code will be shipped with the Pro plugin as well. The Free "
+"plugin will be automatically deactivated and deleted, as it is no longer "
+"needed alongside Pro 8.0"
+msgstr ""
+
+#: class-admin.php:711
+msgid "Settings"
+msgstr ""
+
+#: class-headers.php:211 class-headers.php:420
+#, php-format
+msgid ""
+"The %s security header is not set by Really Simple SSL, but has a non-"
+"recommended value: \"%s\"."
+msgstr ""
+
+#: class-headers.php:231 class-headers.php:237
+msgid "HSTS Preload"
+msgstr ""
+
+#: class-headers.php:232
+#, php-format
+msgid ""
+"Your site has been configured for the HSTS preload list. If you have "
+"submitted your site, it will be preloaded. Click %shere%s to submit."
+msgstr ""
+
+#: class-headers.php:238
+msgid "Your site is not yet configured for the HSTS preload list."
+msgstr ""
+
+#: class-headers.php:244
+msgid "HSTS not enabled"
+msgstr ""
+
+#: class-headers.php:245
+msgid "Your site is not configured for HSTS yet."
+msgstr ""
+
+#: class-headers.php:451
+#, php-format
+msgid "The following recommended security headers have not been set: %s"
+msgstr ""
+
+#: class-importer.php:61
+msgid "Roll back file changes"
+msgstr ""
+
+#: class-importer.php:93
+msgid ""
+"Something went wrong. If this doesn't work, you can put the original files "
+"back by changing files named 'rsssl-bkp-filename' to filename."
+msgstr ""
+
+#: class-importer.php:105
+msgid "Your files were restored."
+msgstr ""
+
+#: class-importer.php:107
+msgid "Your files already were restored."
+msgstr ""
+
+#: class-importer.php:121 class-importer.php:162 class-importer.php:200
+#: class-importer.php:242 class-importer.php:278
+msgid ""
+"Something went wrong. Please refresh the page and try again, or fix manually."
+msgstr ""
+
+#: class-importer.php:136
+msgid "There was a problem editing the file. Please try manually."
+msgstr ""
+
+#: class-importer.php:179
+msgid ""
+"The file could not be downloaded. It might not exist, or downloading is "
+"blocked. Fix manually."
+msgstr ""
+
+#: class-importer.php:221 class-importer.php:258 class-importer.php:297
+msgid ""
+"The file could not be downloaded. The file might not exist, or downloading "
+"is be blocked by the server. Fix manually."
+msgstr ""
+
+#: class-importer.php:537
+msgid "Something went wrong."
+msgstr ""
+
+#: class-licensing.php:65
+msgid "Activate your license for automatic updates."
+msgstr ""
+
+#: class-licensing.php:185 class-licensing.php:207 class-licensing.php:705
+#: class-licensing.php:712 class-licensing.php:719 class-licensing.php:726
+#: class-licensing.php:733 class-licensing.php:748
+msgid "License"
+msgstr ""
+
+#: class-licensing.php:186
+msgid "Manage your license here."
+msgstr ""
+
+#: class-licensing.php:501
+msgid "unlimited"
+msgstr ""
+
+#: class-licensing.php:506
+msgid "Not available"
+msgstr ""
+
+#: class-licensing.php:508
+msgid "You have a lifetime license."
+msgstr ""
+
+#: class-licensing.php:508
+#, php-format
+msgid "Valid until %s."
+msgstr ""
+
+#: class-licensing.php:514
+#, php-format
+msgid "Upgrade to a %s5 sites or Agency%s license."
+msgstr ""
+
+#: class-licensing.php:517
+#, php-format
+msgid "Upgrade to an %sAgency%s license."
+msgstr ""
+
+#: class-licensing.php:520
+#, php-format
+msgid "You can renew your license on your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:525
+msgid "Unlimited activations available."
+msgstr ""
+
+#: class-licensing.php:528 class-licensing.php:624
+#, php-format
+msgid "%s/%s activations available."
+msgstr ""
+
+#: class-licensing.php:544
+#, php-format
+msgid "Valid license for %s."
+msgstr ""
+
+#: class-licensing.php:569
+#, php-format
+msgid "Multisite detected. Please upgrade to %smultisite%s."
+msgstr ""
+
+#: class-licensing.php:577
+msgid ""
+"The license information could not be retrieved at this moment. Please try "
+"again at a later time."
+msgstr ""
+
+#: class-licensing.php:583
+#, php-format
+msgid "Please enter your license key. Available in your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:591
+msgid "Please activate your license key."
+msgstr ""
+
+#: class-licensing.php:597
+#, php-format
+msgid "Your license has been revoked. Please contact %ssupport%s."
+msgstr ""
+
+#: class-licensing.php:603
+#, php-format
+msgid ""
+"Your license could not be found in our system. Please contact %ssupport%s."
+msgstr ""
+
+#: class-licensing.php:610
+#, php-format
+msgid "This license is not valid. Find out why on your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:617
+#, php-format
+msgid ""
+"This license is not valid for this product. Find out why on your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:630
+#, php-format
+msgid ""
+"Your license key has expired. Please renew your license key on your %saccount"
+"%s."
+msgstr ""
+
+#: class-licensing.php:636
+msgid "Warning"
+msgstr ""
+
+#: class-licensing.php:637
+msgid "Open"
+msgstr ""
+
+#: class-licensing.php:638
+msgid "Success"
+msgstr ""
+
+#: class-licensing.php:639
+msgid "Premium"
+msgstr ""
+
+#: class-licensing.php:682
+msgid "Your Really Simple SSL Pro license hasn't been activated."
+msgstr ""
+
+#: class-licensing.php:683
+msgid "Your Really Simple SSL Pro license is not valid."
+msgstr ""
+
+#: class-licensing.php:697
+#, php-format
+msgid "%sActivate%s your license."
+msgstr ""
+
+#: class-licensing.php:699
+#, php-format
+msgid "You can upgrade on your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:706
+msgid ""
+"Your Really Simple SSL Pro license key has expired. Please renew your "
+"license to continue receiving updates and premium support."
+msgstr ""
+
+#: class-licensing.php:713
+msgid ""
+"Your Really Simple SSL Pro license key is not activated. Please activate "
+"your license to continue receiving updates and premium support."
+msgstr ""
+
+#: class-licensing.php:720
+msgid ""
+"This domain is not activated for this Really Simple SSL Pro license. Please "
+"activate the license for this domain."
+msgstr ""
+
+#: class-licensing.php:727
+msgid ""
+"You do not have any activations left on your Really Simple SSL Pro license. "
+"Please upgrade your plan for additional activations."
+msgstr ""
+
+#: class-licensing.php:734
+msgid ""
+"Your Really Simple SSL Pro license key hasn't been activated yet. You can "
+"activate your license key on the license tab."
+msgstr ""
+
+#: class-licensing.php:749
+msgid ""
+"You are using Really Simple SSL Pro single site on a multisite environment. "
+"Please install Really Simple SSL multisite networkwide for multisite support."
+msgstr ""
+
+#: class-scan.php:138 class-scan.php:152
+msgid "Great! Your scan last completed without errors."
+msgstr ""
+
+#: class-scan.php:142
+msgid ""
+"The last scan was completed with errors. Only migrate if you are sure the "
+"found errors are not a problem for your site."
+msgstr ""
+
+#: class-scan.php:147
+msgid ""
+"You haven't scanned the site yet, you should scan your site to check for "
+"possible issues."
+msgstr ""
+
+#: class-scan.php:156
+msgid ""
+"The last scan was completed with errors. Are you sure these issues don't "
+"impact your site?"
+msgstr ""
+
+#: class-scan.php:223 class-scan.php:1946
+msgid "Never"
+msgstr ""
+
+#: class-scan.php:229
+#, php-format
+msgctxt "'date' at 'time'"
+msgid "%s at %s"
+msgstr ""
+
+#: class-scan.php:262
+msgid "Generating web page list"
+msgstr ""
+
+#: class-scan.php:275
+#, php-format
+msgid ""
+"Searching for js and css files and links to external resources in website, "
+"%s of %s"
+msgstr ""
+
+#: class-scan.php:290
+#, php-format
+msgid "Searching for mixed content in css and js files, %s of %s"
+msgstr ""
+
+#: class-scan.php:304
+msgid "Generating file list"
+msgstr ""
+
+#: class-scan.php:318
+#, php-format
+msgid "Checking posts for external URLs, %s of %s"
+msgstr ""
+
+#: class-scan.php:331
+msgid "Checking widgets for external URLs"
+msgstr ""
+
+#: class-scan.php:342
+msgid "Checking which postmeta contain external resources"
+msgstr ""
+
+#: class-scan.php:355
+#, php-format
+msgid "Checking which resources can't load over ssl, %s of %s"
+msgstr ""
+
+#: class-scan.php:370
+#, php-format
+msgid "Checking if external js or css files contain http links, %s of %s"
+msgstr ""
+
+#: class-scan.php:385
+#, php-format
+msgid "Looking up blocked resources in files, %s of %s"
+msgstr ""
+
+#: class-scan.php:399
+msgid "Looking up blocked resources in posts"
+msgstr ""
+
+#: class-scan.php:412
+msgid "Looking up blocked resources in postmeta"
+msgstr ""
+
+#: class-scan.php:427
+msgid "Looking up blocked resources in widgets"
+msgstr ""
+
+#: class-scan.php:435
+msgid "Finished scan"
+msgstr ""
+
+#: class-scan.php:1623
+msgid "theme file"
+msgstr ""
+
+#: class-scan.php:1625
+msgid "mu plugin file"
+msgstr ""
+
+#: class-scan.php:1627
+msgid "plugin file"
+msgstr ""
+
+#: class-scan.php:1629
+msgid "uploads file, possibly generated by plugin or theme"
+msgstr ""
+
+#: class-scan.php:1631
+msgid "cached file, deactivate cache to see the actual source"
+msgstr ""
+
+#: class-scan.php:1633
+msgid "file"
+msgstr ""
+
+#: class-scan.php:1648
+msgid ""
+"Downloading files from other websites can cause serious copyright issues! It "
+"is always illegal to use images, files, or any copyright protected material "
+"on your own site without the consent of the copyrightholder. Please ask the "
+"copyrightholder for permission. Use this function at your own risk."
+msgstr ""
+
+#: class-scan.php:1649
+msgid ""
+"This downloads the file from the domain without SSL, inserts it into WP "
+"media, and changes the URL to the new URL."
+msgstr ""
+
+#: class-scan.php:1670 class-scan.php:1704 class-scan.php:1780
+#: class-scan.php:1817 class-scan.php:1866
+#, php-format
+msgid "Blocked URL: %s"
+msgstr ""
+
+#: class-scan.php:1670
+msgid "You can edit the source file manually by pressing the edit button."
+msgstr ""
+
+#: class-scan.php:1675
+#, php-format
+msgid "Mixed content in PHP file in %s"
+msgstr ""
+
+#: class-scan.php:1679 class-scan.php:1715 class-scan.php:1753
+#: class-scan.php:1790 class-scan.php:1828 class-scan.php:1875
+msgid "Details"
+msgstr ""
+
+#: class-scan.php:1705
+msgid ""
+"Can be fixed manually by editing the respective mu-plugin file in the /wp-"
+"content/mu-plugins/ directory."
+msgstr ""
+
+#: class-scan.php:1705
+msgid ""
+"Can be fixed automatically by pressing the Fix button. If fixing fails, the "
+"source file can be edited manually by pressing the Edit button."
+msgstr ""
+
+#: class-scan.php:1710
+#, php-format
+msgid "Mixed content in %s"
+msgstr ""
+
+#: class-scan.php:1723 class-scan.php:1798 class-scan.php:1836
+#: class-scan.php:1883
+msgid "Import and insert file"
+msgstr ""
+
+#: class-scan.php:1724 class-scan.php:1799 class-scan.php:1837
+#: class-scan.php:1884 class-scan.php:2211
+msgid "Copyright warning!"
+msgstr ""
+
+#: class-scan.php:1743
+msgid ""
+"Cannot be fixed automatically, as the mixed content is coming from an "
+"external domain. Contact the owner of the domain to update the CSS/JS file"
+msgstr ""
+
+#: class-scan.php:1744
+#, php-format
+msgid "Mixed content resources: %s"
+msgstr ""
+
+#: class-scan.php:1749
+msgid "Mixed content in CSS/JS file from other domain"
+msgstr ""
+
+#: class-scan.php:1781
+msgid ""
+"Mixed content found in in a post. Can be fixed automatically by pressing the "
+"fix button. Pressing the edit button allows you to update the link in the "
+"post manually."
+msgstr ""
+
+#: class-scan.php:1786
+#, php-format
+msgid "Mixed content in post: %s"
+msgstr ""
+
+#: class-scan.php:1816
+msgid "iFrame in the wp_postmeta database table"
+msgstr ""
+
+#: class-scan.php:1816
+msgid "Mixed content in the postmeta table"
+msgstr ""
+
+#: class-scan.php:1818
+msgid ""
+"Mixed content from a postmeta table in your database. Usually won't cause "
+"any mixed content on the front-end. Check the post if it causes mixed "
+"content. If so, the link can be replace directly in the database."
+msgstr ""
+
+#: class-scan.php:1861
+#, php-format
+msgid "Widget area \"%s\""
+msgstr ""
+
+#: class-scan.php:1866
+msgid ""
+"Mixed content found in a widget. Press the edit link to edit the widget "
+"manually."
+msgstr ""
+
+#: class-scan.php:1871
+msgid "Widget with mixed content"
+msgstr ""
+
+#: class-scan.php:2210
+msgid "Roll back changes made to your files"
+msgstr ""
+
+#: class-scan.php:2214
+msgid ""
+"This will put the files back that were changed by the fix option in Really "
+"Simple SSL Pro."
+msgstr ""
+
+#: class-scan.php:2216
+msgid ""
+"Please note that any changes you have made since to your current files, will "
+"be lost."
+msgstr ""
+
+#: class-scan.php:2221
+msgid "Restore files"
+msgstr ""
+
+#: cron/cron.php:34
+msgid "Once every day"
+msgstr ""
+
+#: cron/cron.php:38
+msgid "Once every five minutes"
+msgstr ""
+
+#: cron/cron.php:43
+msgid "Once every hour"
+msgstr ""
+
+#: csp-violation-endpoint.php:152
+msgid ""
+"A required database table is missing. Please check if you have permissions "
+"to add this database table."
+msgstr ""
+
+#: csp-violation-endpoint.php:174
+#, php-format
+msgid ""
+"Learning Mode is active for your Content Security and will complete in %s "
+"days."
+msgstr ""
+
+#: csp-violation-endpoint.php:186
+msgid "Follow these steps to complete the setup:"
+msgstr ""
+
+#: csp-violation-endpoint.php:188
+msgid "Review the detected configuration in 'Content Security Policy'."
+msgstr ""
+
+#: csp-violation-endpoint.php:189
+msgid "Click 'Enforce' to enforce the configuration on your site."
+msgstr ""
+
+#: csp-violation-endpoint.php:213
+msgid "Content Security Policy maximum size exceeded"
+msgstr ""
+
+#: csp-violation-endpoint.php:214
+msgid ""
+"Your site has exceeded the maximum size for HTTP headers. To prevent issues, "
+"the Content Security Policy won't be added to your HTTP headers."
+msgstr ""
+
+#: really-simple-ssl-pro.php:264
+msgid ""
+"Really Simple SSL Pro is an add-on for Really Simple SSL, and cannot do it "
+"on its own :-("
+msgstr ""
+
+#: really-simple-ssl-pro.php:265
+msgid "Please install and activate Really Simple SSL to enable the add-on."
+msgstr ""
+
+#: really-simple-ssl-pro.php:267
+#, php-format
+msgid ""
+"Please %supgrade%s to the latest version to be able use the full "
+"functionality of the plugin."
+msgstr ""
+
+#: really-simple-ssl-pro.php:276
+msgid "Install and activate Really Simple SSL"
+msgstr ""
+
+#: really-simple-ssl-pro.php:287
+msgid ""
+"Really Simple SSL Free needs to be updated to the latest version to be "
+"compatible."
+msgstr ""
+
+#: really-simple-ssl-pro.php:288
+msgid "Visit the plugins overview to update Really Simple SSL."
+msgstr ""
+
+#: security/notices.php:14
+msgid ""
+"You have enabled the \"Rename and randomize your database prefix\" option, "
+"but the attempt to do this has failed. The option has been disabled."
+msgstr ""
+
+#: security/notices.php:35
+msgid ""
+"Block admin creation was disabled, because the registration of admin users "
+"has failed."
+msgstr ""
+
+#: security/wordpress/block-admin-creation.php:310
+msgid "Manual approval required"
+msgstr ""
+
+#: security/wordpress/block-admin-creation.php:311
+msgid ""
+"Because of your settings in Really Simple SSL, this user has been set to "
+"subscriber until you change the role manually."
+msgstr ""
+
+#: security/wordpress/block-admin-creation.php:317
+#: security/wordpress/block-admin-creation.php:318
+msgid "Suspicious admin account detected"
+msgstr ""
+
+#: security/wordpress/block-admin-creation.php:319
+msgid ""
+"A user account with administrator privileges was created outside the "
+"WordPress dashboard."
+msgstr ""
+
+#: security/wordpress/change-login-url.php:18
+msgid "Login URL request"
+msgstr ""
+
+#: security/wordpress/change-login-url.php:19
+#, php-format
+msgid ""
+"You have requested the login URL for your website. You can log in on %s."
+msgstr ""
+
+#: security/wordpress/change-login-url.php:140
+msgid "This feature is not enabled."
+msgstr ""
+
+#: security/wordpress/class-rsssl-event-listener.php:150
+#: security/wordpress/class-rsssl-event-listener.php:177
+msgid "Your access has been denied, please contact the webmaster for support"
+msgstr ""
+
+#: security/wordpress/class-rsssl-event-listener.php:184
+msgid "Your access has been denied, too many login attempts"
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:132
+msgid "Password Expires On"
+msgstr ""
+
+#. translators: %1$s: The date the password expires. %2$d: The number of days until the password expires.
+#: security/wordpress/class-rsssl-password-security.php:165
+#, php-format
+msgid "%1$s - expires in %2$d days"
+msgstr ""
+
+#. translators: %s: Not required.
+#: security/wordpress/class-rsssl-password-security.php:172
+msgid "Not required"
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:369
+msgid "Your password has expired. Please change your password."
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:586
+#: security/wordpress/class-rsssl-password-security.php:590
+msgid "Invalid nonce."
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:641
+msgid ""
+"Your password contains (part of) your (user)name or email address. Choose a "
+"different password"
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:798
+#: security/wordpress/class-rsssl-password-security.php:799
+msgid "Your account is locked"
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:801
+#, php-format
+msgid "Hi %1$s, Your password expired on %2$s , please change your password."
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:805
+msgid "Unlock Account"
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:808
+#: security/wordpress/class-rsssl-password-security.php:831
+#, php-format
+msgid "Copy this URL to your browser to change your password: %1$s "
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:816
+msgid "Account Locked"
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:821
+#: security/wordpress/class-rsssl-password-security.php:822
+msgid "Your password will expire in 7 days"
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:824
+#, php-format
+msgid ""
+"Hi %1$s, Your password on %2$s will expire in 7 days, please change your "
+"password."
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:828
+msgid "Change password"
+msgstr ""
+
+#: security/wordpress/class-rsssl-password-security.php:839
+msgid "Change your password"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:119
+#: security/wordpress/eventlog/class-rsssl-event-type.php:174
+msgid "System"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:255
+#, php-format
+msgid "Login by %s was successful"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:258
+#, php-format
+msgid "Login by %s failed (incorrect credentials)"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:260
+#: security/wordpress/eventlog/class-rsssl-event-type.php:529
+msgid "REST API authentication successful"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:261
+#: security/wordpress/eventlog/class-rsssl-event-type.php:266
+#: security/wordpress/eventlog/class-rsssl-event-type.php:271
+#: security/wordpress/eventlog/class-rsssl-event-type.php:276
+#: security/wordpress/eventlog/class-rsssl-event-type.php:530
+#: security/wordpress/eventlog/class-rsssl-event-type.php:535
+#: security/wordpress/eventlog/class-rsssl-event-type.php:540
+#: security/wordpress/eventlog/class-rsssl-event-type.php:545
+msgid "Authentication"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:265
+#: security/wordpress/eventlog/class-rsssl-event-type.php:534
+msgid "REST API authentication failed"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:270
+#: security/wordpress/eventlog/class-rsssl-event-type.php:539
+msgid "XML-RPC authentication successful"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:275
+#: security/wordpress/eventlog/class-rsssl-event-type.php:544
+msgid "XML-RPC authentication failed"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:281
+#, php-format
+msgid "User %s added to temporary blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:285
+#, php-format
+msgid "User %s removed from temporary blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:290
+#, php-format
+msgid "User %s added to permanent blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:293
+#, php-format
+msgid "User %s removed from permanent blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:296
+#, php-format
+msgid "User %s added to trusted  IP list"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:300
+#, php-format
+msgid "User %s removed from trusted IP list"
+msgstr ""
+
+#. translators: %s is replaced with the IP address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:305
+#, php-format
+msgid "IP address %s added to temporary blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the IP address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:308
+#, php-format
+msgid "IP address %s removed from temporary blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the IP address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:311
+#, php-format
+msgid "IP address %s added to permanent blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the IP address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:314
+#, php-format
+msgid "IP address %s removed from permanent blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the IP address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:317
+#, php-format
+msgid "IP address %s added to trusted IP list"
+msgstr ""
+
+#. translators: %s is replaced with the IP address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:320
+#, php-format
+msgid "IP address %s removed from trusted IP list"
+msgstr ""
+
+#. translators: %s is replaced with the country name.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:324
+#, php-format
+msgid "Country %s added to geo-IP blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the country name.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:330
+#, php-format
+msgid "Country %s removed from geo-IP blocklist"
+msgstr ""
+
+#. translators: %s is replaced with the email address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:335
+#, php-format
+msgid "Unblock link sent to %s"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:339
+#, php-format
+msgid "Login failed (User %s found in temporary blocklist)"
+msgstr ""
+
+#. translators: %s is replaced with the username.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:345
+#, php-format
+msgid "Login failed (User %s found in permanent blocklist)"
+msgstr ""
+
+#. translators: %s is replaced with the IP address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:350
+#, php-format
+msgid "Login failed (IP %s found in temporary blocklist)"
+msgstr ""
+
+#. translators: %s is replaced with the IP address.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:353
+#, php-format
+msgid "Login failed (IP %s found in permanent blocklist)"
+msgstr ""
+
+#. translators: %s is replaced with the country name.
+#: security/wordpress/eventlog/class-rsssl-event-type.php:357
+#, php-format
+msgid "Login failed (Country %s blocked by geo-IP blocklist )"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:361
+msgid "Login failed (incorrect MFA code)"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:362
+#: security/wordpress/eventlog/class-rsssl-event-type.php:366
+msgid "MFA"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:366
+msgid "MFA setup required"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:369
+#: security/wordpress/eventlog/class-rsssl-event-type.php:585
+msgid "Unknown event"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:525
+msgid "Login successful"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:527
+msgid "Login failed"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:549
+msgid "User locked out"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:552
+msgid "User removed from blocklist"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:554
+msgid "User added to blocklist"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:556
+msgid "User added to trusted list"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:558
+msgid "User removed from trusted list"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:560
+msgid "IP address locked-out"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:563
+msgid "IP removed from blocklist"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:565
+msgid "IP added to blocklist"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:567
+msgid "IP added to trusted list"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:569
+msgid "IP removed from trusted list"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:572
+msgid "Geo-IP blocklist changed"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:574
+msgid "Unblock link sent"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:577
+msgid "Login blocked by username"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:580
+msgid "Login blocked by IP address"
+msgstr ""
+
+#: security/wordpress/eventlog/class-rsssl-event-type.php:582
+msgid "Login blocked by Geo-IP list"
+msgstr ""
+
+#: security/wordpress/limitlogin/class-rsssl-geo-location.php:445
+msgid "Error downloading file: "
+msgstr ""
+
+#: security/wordpress/limitlogin/class-rsssl-geo-location.php:498
+msgid "Error extracting file"
+msgstr ""
+
+#: security/wordpress/limitlogin/class-rsssl-geo-location.php:619
+msgid "Trusted"
+msgstr ""
+
+#: security/wordpress/limitlogin/class-rsssl-geo-location.php:697
+msgid "'All'"
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:71
+msgctxt "Provider Label"
+msgid "Email"
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:238
+msgid "Continue"
+msgstr ""
+
+#. translators: %s: site name
+#: security/wordpress/two_fa/class-two-factor-email.php:243
+#, php-format
+msgid "Your login confirmation code for %s"
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:265
+#, php-format
+msgid ""
+"Below you will find your login code for %1$s. It's valid for 15 minutes. %2$s"
+msgstr ""
+
+#. translators: %s is replaced with the site url
+#. translators: %s: site url
+#: security/wordpress/two_fa/class-two-factor-email.php:295
+#: security/wordpress/two_fa/two-factor.php:1517
+#: security/wordpress/two_fa/two-factor.php:1565
+#, php-format
+msgid "Notification by %s"
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:298
+#: security/wordpress/two_fa/two-factor.php:1520
+msgid "Hi"
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:322
+msgid ""
+"A verification code has been sent to the email address associated with your "
+"account."
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:324
+msgid "Verification Code:"
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:326
+msgid "Log In"
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:329
+msgid "Resend Code"
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-email.php:357
+msgid "Don't use Two-Step verification"
+msgstr ""
+
+#. translators: %s: email address
+#: security/wordpress/two_fa/class-two-factor-email.php:427
+#, php-format
+msgid "Authentication codes will be sent to %s."
+msgstr ""
+
+#: security/wordpress/two_fa/class-two-factor-settings.php:333
+msgid "No role"
+msgstr ""
+
+#. translators: %s: Site title.
+#: security/wordpress/two_fa/function-login-footer.php:29
+#, php-format
+msgctxt "site"
+msgid "&larr; Go to %s"
+msgstr ""
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site name.
+#: security/wordpress/two_fa/function-login-header.php:53
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr ""
+
+#. translators: %s: Login screen title.
+#: security/wordpress/two_fa/function-login-header.php:57
+#, php-format
+msgid "Recovery Mode &#8212; %s"
+msgstr ""
+
+#: security/wordpress/two_fa/function-login-header.php:104
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: security/wordpress/two_fa/function-login-header.php:130
+msgid ""
+"Usage of the title attribute on the login logo is not recommended for "
+"accessibility reasons. Use the link text instead."
+msgstr ""
+
+#: security/wordpress/two_fa/function-login-header.php:133
+msgid "Powered by WordPress"
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:677
+msgid "API login for user disabled."
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:751
+#: security/wordpress/two_fa/two-factor.php:1281
+#: security/wordpress/two_fa/two-factor.php:1292
+#: security/wordpress/two_fa/two-factor.php:1317
+#: security/wordpress/two_fa/two-factor.php:1343
+msgid "Failed to create a login nonce."
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:773
+#, php-format
+msgid ""
+"Warning: Your account has attempted to login without providing a valid two "
+"factor token. The last failed login occured %2$s ago. If this wasn't you, "
+"you should reset your password."
+msgid_plural ""
+"Warning: %1$s login attempts have been detected on your account with the "
+"correct password but with an incorrect two-factor token. The last failed "
+"login occurred %2$s ago. If this wasn't you, you should reset your password."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: URL to reset password
+#: security/wordpress/two_fa/two-factor.php:823
+#, php-format
+msgid ""
+"Your password was reset because of too many failed Two Factor attempts. You "
+"will need to <a href=\"%s\">create a new password</a> to regain access. "
+"Please check your email for more information."
+msgstr ""
+
+#. translators: %s: Two-factor method name.
+#: security/wordpress/two_fa/two-factor.php:921
+#, php-format
+msgid "Or, use your backup method: %s &rarr;"
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:934
+msgid "Or, use a backup method…"
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1261
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1268
+#: security/wordpress/two_fa/two-factor.php:1347
+msgid ""
+"Your verification code expired, click “Resend Code” to receive a new "
+"verification code."
+msgstr ""
+
+#. translators: %s: time delay between login attempts
+#: security/wordpress/two_fa/two-factor.php:1308
+#, php-format
+msgid ""
+"Too many invalid verification codes, you can try again in %s. This limit "
+"protects your account against automated attacks."
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1326
+#: security/wordpress/two_fa/two-factor.php:1350
+msgid "Invalid verification code."
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1383
+msgid "You have logged in successfully."
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1493
+#, php-format
+msgid ""
+"Hello %1$s, an unusually high number of failed login attempts have been "
+"detected on your account at %2$s.\n"
+"\n"
+"These attempts successfully entered your password, and were only blocked "
+"because they failed to enter your second authentication factor. Despite not "
+"being able to access your account, this behavior indicates that the "
+"attackers have compromised your password. The most common reasons for this "
+"are that your password was easy to guess, or was reused on another site "
+"which has been compromised.\n"
+"\n"
+"To protect your account, your password has been reset, and you will need to "
+"create a new one. For advice on setting a strong password, please read %3$s\n"
+"\n"
+"To pick a new password, please visit %4$s\n"
+"\n"
+"This is an automated notification. If you would like to speak to a site "
+"administrator, please contact them directly."
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1514
+msgid "Your password was compromised and has been reset"
+msgstr ""
+
+#. translators: %s: user login
+#: security/wordpress/two_fa/two-factor.php:1535
+#, php-format
+msgid "Compromised password for %s has been reset"
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1542
+#, php-format
+msgid ""
+"Hello, this is a notice from your website to inform you that an unusually "
+"high number of failed login attempts have been detected on the %1$s account "
+"(ID %2$d).\n"
+"\n"
+"Those attempts successfully entered the user's password, and were only "
+"blocked because they entered invalid second authentication factors.\n"
+"\n"
+"To protect their account, the password has automatically been reset, and "
+"they have been notified that they will need to create a new one.\n"
+"\n"
+"If you do not wish to receive these notifications, you can disable them with "
+"the `two_factor_notify_admin_user_password_reset` filter. See %3$s for more "
+"information.\n"
+"\n"
+"Thank you"
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1568
+msgid "Compromised password reset"
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1582
+msgid ""
+"There have been too many failed two-factor authentication attempts, which "
+"often indicates that the password has been compromised. The password has "
+"been reset in order to protect the account."
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1583
+msgid ""
+"If you are the owner of this account, please check your email for "
+"instructions on regaining access."
+msgstr ""
+
+#: security/wordpress/two_fa/two-factor.php:1587
+msgid "Password Reset"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:427
+#: security/wordpress/vulnerabilities-pro.php:478
+msgid "Upgrading..."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:596
+#, php-format
+msgid "Update Alert: %s."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:597
+#, php-format
+msgid "%s, Force Update: Scheduled."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:599
+#, php-format
+msgid ""
+"An automatic update for %s has been scheduled due to the discovery of a "
+"vulnerability on %s"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:601
+#, php-format
+msgid ""
+"Several automatic updates for components have been scheduled due to the "
+"discovery of vulnerabilities on %s."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:606
+#, php-format
+msgid "Force Update: %s hours"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:607
+#: security/wordpress/vulnerabilities-pro.php:637
+#, php-format
+msgid ""
+"We will initiate %s automatic update cycles, in the next %s hours, to "
+"mitigate available vulnerabilities."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:608
+#: security/wordpress/vulnerabilities-pro.php:638
+#: security/wordpress/vulnerabilities-pro.php:666
+#: security/wordpress/vulnerabilities-pro.php:698
+#: security/wordpress/vulnerabilities-pro.php:728
+#: security/wordpress/vulnerabilities-pro.php:759
+msgid "Please double-check if your website is working as expected."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:609
+#: security/wordpress/vulnerabilities-pro.php:639
+#: security/wordpress/vulnerabilities-pro.php:667
+#: security/wordpress/vulnerabilities-pro.php:699
+#: security/wordpress/vulnerabilities-pro.php:729
+#: security/wordpress/vulnerabilities-pro.php:760
+#, php-format
+msgid "Get more information from the Really Simple SSL dashboard on %s"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:625
+#: security/wordpress/vulnerabilities-pro.php:655
+#: security/wordpress/vulnerabilities-pro.php:684
+#, php-format
+msgid "Update Alert: %s"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:626
+#, php-format
+msgid "%s, Force Update: Failed"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:628
+#: security/wordpress/vulnerabilities-pro.php:687
+#, php-format
+msgid "An automatic update for %s failed on %s."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:630
+#: security/wordpress/vulnerabilities-pro.php:690
+#, php-format
+msgid ""
+"Several automatic updates for vulnerable components, scheduled on %s, have "
+"failed."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:636
+msgid "Force Update: failed"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:656
+#, php-format
+msgid "%s, Force Update: Successful"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:658
+#, php-format
+msgid "An automatic update for %s has been successful on %s."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:660
+#, php-format
+msgid ""
+"Several automatic updates for vulnerable components, scheduled on %s, have "
+"been successful."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:665
+#: security/wordpress/vulnerabilities-pro.php:697
+#: security/wordpress/vulnerabilities-pro.php:758
+msgid "Verify your website"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:685
+#, php-format
+msgid "%s, Force Update: End Process"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:688
+#, php-format
+msgid "This is the end of the update cycle, we recommend manually removing %s."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:691
+msgid ""
+"This is the end of the update cycle, we recommend manually removing "
+"vulnerable components."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:694
+msgid ""
+"You can also use our ‘Quarantine’ option to automate this process in the "
+"future."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:715
+#: security/wordpress/vulnerabilities-pro.php:748
+#, php-format
+msgid "Quarantine Alert: %s"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:716
+#, php-format
+msgid "%s, Quarantine: Scheduled"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:718
+#, php-format
+msgid "A quarantine for %s scheduled on %s."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:720
+#, php-format
+msgid "Several vulnerable components scheduled for update on %s, have failed."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:726
+#, php-format
+msgid "Quarantine in %s hours"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:727
+#, php-format
+msgid ""
+"We will initiate a quarantine cycle in the next %s hours to mitigate "
+"available vulnerabilities."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:749
+#, php-format
+msgid "%s, Quarantine: Successful"
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:751
+#, php-format
+msgid "A quarantine for %s has been successful on %s."
+msgstr ""
+
+#: security/wordpress/vulnerabilities-pro.php:753
+#, php-format
+msgid "Several vulnerable components quarantined on %s."
+msgstr ""
+
+#: settings/sync-settings.php:83 settings/sync-settings.php:90
+msgid "Login URL already changed by something else than Really Simple SSL"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Really Simple SSL Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://really-simple-ssl.com/pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Heavyweight Security Features"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Really Simple Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.really-simple-plugins.com"
+msgstr ""

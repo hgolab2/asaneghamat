@@ -1,0 +1,232 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Hub Portfolio\n"
+"POT-Creation-Date: 2023-08-18 06:05-0700\n"
+"PO-Revision-Date: 2023-08-18 06:05-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: hub-portfolio.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: hub-portfolio.php:76
+msgid ""
+"Please activate the Landing HUB Core to use the Landing HUB Portfolio plugin."
+msgstr ""
+
+#: hub-portfolio.php:81
+msgid "Activate Landing HUB Core"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:22
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:23
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:24
+msgid "Portfolio items"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:25
+msgid "Portfolio item"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:26
+msgid "Portfolio item Archives"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:27
+msgid "Parent Item:"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:28
+msgid "All Items"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:29
+msgid "Add New Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:30
+msgid "Add New"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:31
+msgid "New Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:32
+msgid "Edit Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:33
+msgid "Update Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:34
+msgid "View Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:35
+msgid "Search Portfolios"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:36
+msgid "Not found"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:37
+msgid "Not found in Trash"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:38
+msgid "Featured Image"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:39
+msgid "Set featured image"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:40
+msgid "Remove featured image"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:41
+msgid "Use as featured image"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:42
+msgid "Insert into Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:43
+msgid "Uploaded to this Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:44 post-types/liquid-portfolio.php:99
+msgid "Items list"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:45 post-types/liquid-portfolio.php:100
+msgid "Items list navigation"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:46
+msgid "Filter items list"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:55
+msgid "Portfolio"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:81
+msgctxt "Taxonomy General Name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:82
+msgctxt "Taxonomy Singular Name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:83
+msgid "Categories"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:84
+msgid "All Categories"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:85
+msgid "Parent Category"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:86
+msgid "Parent Category:"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:87
+msgid "New Category Name"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:88
+msgid "Add New Category"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:89
+msgid "Edit Category"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:90
+msgid "Update Category"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:91
+msgid "View Category"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:92
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:93
+msgid "Add or remove Categories"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:94
+msgid "Choose from the most used"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:95
+msgid "Popular Categories"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:96
+msgid "Search Categories"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:97
+msgid "Not Found"
+msgstr ""
+
+#: post-types/liquid-portfolio.php:98
+msgid "No Categories"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Hub Portfolio"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://hub.liquid-themes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Modern and Diversified Portfolio Plugin, exclusively Hub WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Liquid Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/liquidthemes"
+msgstr ""
