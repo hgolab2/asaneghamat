@@ -29,3 +29,10 @@ Thumbs.db
 desktop.ini
 .idea/
 .vscode/
+
+# Local-only dev shim
+wp-content/mu-plugins/zz-local-dev.php
+
+# Wordfence regenerates timestamped asset copies at runtime
+wp-content/plugins/wordfence/**/*.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9].css
+wp-content/plugins/wordfence/**/*.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9].js

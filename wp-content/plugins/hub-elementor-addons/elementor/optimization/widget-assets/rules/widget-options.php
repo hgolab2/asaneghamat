@@ -310,7 +310,7 @@ switch ( $element_name ) {
             ),
             'lqdsep-btn-base' => array(),
             'lqdsep-btn-shape-plain' => array(),
-            'lqdsep-btn-icon-base' => array(,
+            'lqdsep-btn-icon-base' => array(),
             'lqdsep-btn-hover-swap' => array(),
             'lqdsep-animated-frame-base' => array(),
             'lqdsep-animated-frame-nav' => array(

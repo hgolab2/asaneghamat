@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Asan Eghamat – Performance & Accessibility
  * Description: PageSpeed/Lighthouse optimizations for asaneghamat.com (fonts, LCP image, head cleanup, accessibility fixes). No WordPress core files are modified.
- * Version:     1.0.0
+ * Version:     1.1.0
  * Author:      Asan Eghamat
  */
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ASN_PERF_VERSION', '1.0.0' );
+define( 'ASN_PERF_VERSION', '1.1.0' );
 
 final class ASN_Performance {
 
@@ -22,15 +22,16 @@ final class ASN_Performance {
 		add_filter( 'elementor_pro/custom_fonts/font_display', array( $this, 'font_display_swap' ) );
 		add_filter( 'pre_option_elementor_font_display', array( $this, 'font_display_swap' ) );
 		add_action( 'wp_head', array( $this, 'preload_assets' ), 2 );
-		add_action( 'wp_head', array( $this, 'font_face_override' ), 999 );
 
 		// ---- Head / asset cleanup -------------------------------------------
 		add_action( 'init', array( $this, 'disable_emojis' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'dequeue_unused_assets' ), 100 );
+		add_action( 'wp', array( $this, 'remove_global_styles' ) );
 		add_action( 'init', array( $this, 'cleanup_head_links' ) );
 
 		// ---- WP Rocket integration -------------------------------------------
 		add_filter( 'rocket_lazyload_excluded_src', array( $this, 'rocket_lazyload_exclusions' ) );
+		add_filter( 'rocket_lazyload_excluded_attributes', array( $this, 'rocket_lazyload_excluded_attributes' ) );
 
 		// ---- Accessibility / HTML post-processing ------------------------------
 		add_action( 'template_redirect', array( $this, 'start_buffer' ), 1 );
@@ -50,13 +51,18 @@ final class ASN_Performance {
 	/**
 	 * Preload the two real font files and (on the front page only) the LCP
 	 * background image so the browser discovers them before parsing CSS.
+	 *
+	 * The "webcity" custom font (Elementor Pro > Custom Fonts, post 6495) is
+	 * registered with five weights; in the database they now all point at the
+	 * same two files (Regular for 400/500, Bold for 600-800) so only two
+	 * requests happen instead of four (see dedupe_webcity_font()).
 	 */
 	public function preload_assets() {
 		if ( is_admin() || $this->is_elementor_editor() ) {
 			return;
 		}
 
-		$fonts = $this->child_uri . '/assets/fonts/';
+		$fonts = trailingslashit( wp_upload_dir()['baseurl'] ) . '2023/05/';
 		echo '<link rel="preload" href="' . esc_url( $fonts . 'IRANSansX-Regular.woff2' ) . '" as="font" type="font/woff2" crossorigin>' . "\n";
 		echo '<link rel="preload" href="' . esc_url( $fonts . 'IRANSansX-Bold.woff2' ) . '" as="font" type="font/woff2" crossorigin>' . "\n";
 
@@ -65,30 +71,6 @@ final class ASN_Performance {
 			echo '<link rel="preload" as="image" href="' . esc_url( $img . 'home-bg-mobile.webp' ) . '" media="(max-width: 767px)" fetchpriority="high">' . "\n";
 			echo '<link rel="preload" as="image" href="' . esc_url( $img . 'home-bg-desktop.webp' ) . '" media="(min-width: 768px)" fetchpriority="high">' . "\n";
 		}
-	}
-
-	/**
-	 * Elementor Pro registers the "webcity" family with five weights that
-	 * point at five .woff files, but only two of them are unique (Regular and
-	 * Bold, byte-identical copies). Redeclaring the family here – after
-	 * Elementor's CSS – makes the browser download two woff2 files instead of
-	 * four woff files, and adds font-display: swap.
-	 */
-	public function font_face_override() {
-		if ( is_admin() || $this->is_elementor_editor() ) {
-			return;
-		}
-
-		$fonts   = $this->child_uri . '/assets/fonts/';
-		$regular = esc_url( $fonts . 'IRANSansX-Regular.woff2' );
-		$bold    = esc_url( $fonts . 'IRANSansX-Bold.woff2' );
-
-		$css  = '';
-		foreach ( array( 400 => $regular, 500 => $regular, 600 => $bold, 700 => $bold, 800 => $bold ) as $weight => $url ) {
-			$css .= "@font-face{font-family:'webcity';font-style:normal;font-weight:{$weight};font-display:swap;src:url('{$url}') format('woff2')}";
-		}
-
-		echo '<style id="asn-fonts">' . $css . '</style>' . "\n";
 	}
 
 	/* ====================================================================== */
@@ -118,13 +100,29 @@ final class ASN_Performance {
 		wp_dequeue_style( 'redux-extendify-styles' );
 		wp_deregister_style( 'redux-extendify-styles' );
 
-		// Gutenberg global styles / classic-theme styles are not used by the
-		// Elementor-built front page.
+		// Font Awesome 4 (77 KB font): only wp-bottom-menu uses it, and the child
+		// theme renders those five icons as CSS-masked SVGs. If a page turns out
+		// to use other FA4 icons, process_html() re-injects the stylesheet.
+		wp_dequeue_style( 'font-awesome' );
+
 		if ( is_front_page() ) {
-			wp_dequeue_style( 'global-styles' );
 			wp_dequeue_style( 'classic-theme-styles' );
 			wp_dequeue_style( 'wp-block-library' );
 		}
+	}
+
+	/**
+	 * Gutenberg global styles (9 KB inline, block presets) are not used by the
+	 * Elementor-built front page. Core enqueues them both in the head and,
+	 * for classic themes, again at wp_footer (then hoists them into the head),
+	 * so both hooks have to go.
+	 */
+	public function remove_global_styles() {
+		if ( is_admin() || ! is_front_page() || $this->is_elementor_editor() ) {
+			return;
+		}
+		remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
+		remove_action( 'wp_footer', 'wp_enqueue_global_styles', 1 );
 	}
 
 	public function cleanup_head_links() {
@@ -149,6 +147,17 @@ final class ASN_Performance {
 		return $excluded;
 	}
 
+	/**
+	 * An image WordPress (or Rocket's own above-the-fold beacon) marked as
+	 * fetchpriority="high" is the LCP candidate; lazy-loading it defeats the
+	 * purpose and adds a layout shift.
+	 */
+	public function rocket_lazyload_excluded_attributes( $excluded ) {
+		$excluded   = is_array( $excluded ) ? $excluded : array();
+		$excluded[] = 'fetchpriority="high"';
+		return $excluded;
+	}
+
 	/* ====================================================================== */
 	/* HTML post-processing (accessibility)                                    */
 	/* ====================================================================== */
@@ -169,7 +178,7 @@ final class ASN_Performance {
 			return $html;
 		}
 
-		foreach ( array( 'fix_overlay_links', 'fix_icon_only_links', 'swap_logo' ) as $step ) {
+		foreach ( array( 'fix_overlay_links', 'fix_icon_only_links', 'swap_logo', 'restore_fa4_if_needed' ) as $step ) {
 			$result = $this->$step( $html );
 			// preg_* returns null on a PCRE error; never ship a blank page.
 			if ( is_string( $result ) && '' !== $result ) {
@@ -276,13 +285,40 @@ final class ASN_Performance {
 				if ( false === strpos( $tag, '/uploads/2021/07/asaneghamat.webp' ) ) {
 					return $tag;
 				}
-				$tag = str_replace( 'https://asaneghamat.com/wp-content/uploads/2021/07/asaneghamat.webp', $small, $tag );
-				$tag = preg_replace( '#\bwidth="759"#', 'width="220"', $tag );
-				$tag = preg_replace( '#\bheight="767"#', 'height="222"', $tag );
-				return $tag;
+				$tag = preg_replace( '#https?://[^"\']+/uploads/2021/07/asaneghamat\.webp#', $small, $tag );
+				// Always emit intrinsic dimensions (Lighthouse "unsized-images"),
+				// whether or not WP Rocket managed to add them.
+				$tag = preg_replace( '#\s(width|height)="\d+"#', '', $tag );
+				$tag = preg_replace( "#viewBox='0%200%20\d+%20\d+'#", "viewBox='0%200%20220%20222'", $tag );
+				return preg_replace( '#^<img\b#', '<img width="220" height="222"', $tag );
 			},
 			$html
 		);
+	}
+
+	/**
+	 * FA4 is dequeued globally; if this page uses `fa fa-*` icons anywhere
+	 * other than the bottom menu, add the stylesheet back.
+	 */
+	private function restore_fa4_if_needed( $html ) {
+		if ( ! defined( 'ELEMENTOR_URL' ) ) {
+			return $html;
+		}
+		// Ignore the bottom-menu icons (handled by the child theme CSS).
+		$probe = preg_replace(
+			array( '#<i class="wp-bottom-menu-item-icons[^"]*"[^>]*>#', '#<form[^>]*wp-bottom-menu-search-form.*?</form>#s' ),
+			'',
+			$html
+		);
+		if ( null === $probe ) {
+			$probe = $html;
+		}
+		if ( ! preg_match( '#class="(?:[^"]*\s)?fa(?:\s[^"]*)?"#', $probe ) ) {
+			return $html;
+		}
+		$href = ELEMENTOR_URL . 'assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0';
+		$link = '<link rel="stylesheet" id="font-awesome-css" href="' . esc_url( $href ) . '" media="all">' . "\n";
+		return preg_replace( '#</head>#', $link . '</head>', $html, 1 );
 	}
 
 	/* ====================================================================== */
@@ -290,8 +326,9 @@ final class ASN_Performance {
 	/* ====================================================================== */
 
 	/**
-	 * After a new version of this file is deployed, regenerate Elementor CSS
-	 * (so the font-display filter takes effect) and purge the page cache.
+	 * Runs once per ASN_PERF_VERSION, on the first wp-admin visit after this
+	 * file is deployed: applies the database-side settings that belong to this
+	 * optimisation (so no manual table sync is needed), then purges caches.
 	 */
 	public function maybe_flush_caches() {
 		if ( ! current_user_can( 'manage_options' ) ) {
@@ -300,6 +337,10 @@ final class ASN_Performance {
 		if ( get_option( 'asn_perf_version' ) === ASN_PERF_VERSION ) {
 			return;
 		}
+
+		$this->apply_settings();
+		$this->dedupe_webcity_font();
+		$this->regenerate_custom_font_faces();
 
 		if ( class_exists( '\Elementor\Plugin' ) && isset( \Elementor\Plugin::$instance->files_manager ) ) {
 			\Elementor\Plugin::$instance->files_manager->clear_cache();
@@ -312,6 +353,93 @@ final class ASN_Performance {
 		}
 
 		update_option( 'asn_perf_version', ASN_PERF_VERSION, false );
+	}
+
+	/**
+	 * Settings normally changed through the admin UI:
+	 *
+	 * - Hub Theme Options > Performance > "Optimized files" ON: per-page merged
+	 *   CSS (uploads/liquid-styles/liquid-merged-styles-{ID}.css, ~130 KB)
+	 *   replaces the 1 MB theme-elementor.min.css. "Combine JS" stays OFF – its
+	 *   merged bundle drops gsap/particles/FontFaceObserver on some pages.
+	 * - Elementor > Settings > Features > "Inline Font Icons" active: Font
+	 *   Awesome icons render as inline SVG, so the FA5 CSS + 78 KB font go away.
+	 */
+	private function apply_settings() {
+		$theme = get_option( 'liquid_one_opt' );
+		if ( is_array( $theme ) ) {
+			$theme['enable_optimized_files'] = 'on';
+			$theme['combine_js']             = 'off';
+			update_option( 'liquid_one_opt', $theme );
+		}
+		// Merged files are (re)built on the next front-end request of each page.
+		delete_option( 'liquid_assets_cache' );
+		foreach ( (array) glob( wp_upload_dir()['basedir'] . '/liquid-styles/liquid-merged-*' ) as $file ) {
+			@unlink( $file );
+		}
+
+		update_option( 'elementor_experiment-e_font_icon_svg', 'active' );
+	}
+
+	/**
+	 * The "webcity" custom font is uploaded as five weights pointing at five
+	 * .woff files, of which only two are unique (Regular = 400/500, Bold =
+	 * 600/700/800, byte-identical copies). Point every weight at the two
+	 * canonical files and add the woff2 versions (already in uploads), so the
+	 * browser downloads two woff2 files instead of four woff files.
+	 */
+	private function dedupe_webcity_font() {
+		global $wpdb;
+
+		$font_id = (int) $wpdb->get_var( $wpdb->prepare( "SELECT ID FROM {$wpdb->posts} WHERE post_type = 'elementor_font' AND post_title = %s LIMIT 1", 'webcity' ) );
+		if ( ! $font_id ) {
+			return;
+		}
+		$files = get_post_meta( $font_id, 'elementor_font_files', true );
+		if ( ! is_array( $files ) ) {
+			return;
+		}
+
+		$base = trailingslashit( wp_upload_dir()['baseurl'] ) . '2023/05/';
+		$ids  = array();
+		foreach ( array( 'IRANSansX-Regular.woff2', 'IRANSansX-Regular.woff', 'IRANSansX-Bold.woff2', 'IRANSansX-Bold.woff' ) as $name ) {
+			$ids[ $name ] = (int) $wpdb->get_var( $wpdb->prepare( "SELECT ID FROM {$wpdb->posts} WHERE post_type = 'attachment' AND guid LIKE %s LIMIT 1", '%/2023/05/' . $name ) );
+		}
+
+		foreach ( $files as &$row ) {
+			if ( empty( $row['font_weight'] ) ) {
+				continue;
+			}
+			$face         = (int) $row['font_weight'] >= 600 ? 'IRANSansX-Bold' : 'IRANSansX-Regular';
+			$row['woff2'] = array( 'id' => $ids[ $face . '.woff2' ], 'url' => $base . $face . '.woff2' );
+			$row['woff']  = array( 'id' => $ids[ $face . '.woff' ], 'url' => $base . $face . '.woff' );
+		}
+		unset( $row );
+
+		update_post_meta( $font_id, 'elementor_font_files', $files );
+	}
+
+	/**
+	 * Elementor Pro caches the generated @font-face CSS in post meta at save
+	 * time, so the font_display filter above only takes effect after a
+	 * regeneration. Rebuild it for every custom font.
+	 */
+	private function regenerate_custom_font_faces() {
+		$class = '\ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts';
+		if ( ! class_exists( $class ) ) {
+			return;
+		}
+		$fonts = get_posts( array( 'post_type' => 'elementor_font', 'posts_per_page' => -1, 'post_status' => 'any', 'fields' => 'ids' ) );
+		if ( empty( $fonts ) ) {
+			return;
+		}
+		$custom_fonts = new $class();
+		foreach ( $fonts as $font_id ) {
+			$css = $custom_fonts->generate_font_face( $font_id );
+			if ( $css ) {
+				update_post_meta( $font_id, 'elementor_font_face', $css );
+			}
+		}
 	}
 
 	/* ====================================================================== */

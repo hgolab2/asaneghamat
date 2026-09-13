@@ -148,11 +148,12 @@ Header append Vary: Accept-Encoding
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
+# No RewriteBase / relative target: works at the domain root (production)
+# and inside a sub-directory (local WAMP) alike.
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteRule . index.php [L]
 </IfModule>
 
 # END WordPress
@@ -210,7 +211,9 @@ php_value auto_prepend_file '/home/asanegha/public_html/wordfence-waf.php'
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule !php_module>
 <IfModule mime_module>
   AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
