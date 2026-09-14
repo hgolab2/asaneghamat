@@ -1,11 +1,11 @@
 <?php
 /**
- * One-off recovery script – upload to the site root, open it once in the
- * browser with ?key=asn-2026, then it deletes itself.
+ * One-off recovery + diagnostics script – upload to the site root, open it
+ * once in the browser with ?key=asn-2026, then it deletes itself.
  *
- * Reverts the Hub "Optimized files" switch (whose split-CSS rule file has a
- * shipped syntax error unless the patched widget-options.php is deployed)
- * and purges caches, so the front end renders again.
+ * 1. Turns Hub "Optimized files" OFF and purges caches (site renders again).
+ * 2. Prints the last PHP fatal errors from the host error logs.
+ * 3. Parse-checks every Hub optimisation rule file.
  */
 if ( ! isset( $_GET['key'] ) || 'asn-2026' !== $_GET['key'] ) {
 	http_response_code( 403 );
@@ -13,28 +13,29 @@ if ( ! isset( $_GET['key'] ) || 'asn-2026' !== $_GET['key'] ) {
 }
 
 define( 'WP_USE_THEMES', false );
-define( 'SHORTINIT', false );
 require __DIR__ . '/wp-load.php';
 
 header( 'Content-Type: text/plain; charset=utf-8' );
+@ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
 
-$rules = WP_PLUGIN_DIR . '/hub-elementor-addons/elementor/optimization/widget-assets/rules/widget-options.php';
-$src   = file_exists( $rules ) ? file_get_contents( $rules ) : '';
-echo "widget-options.php on server: ", ( '' === $src ? 'MISSING' : ( false !== strpos( $src, 'array(,' ) ? 'UNPATCHED (has array(,)' : 'patched OK' ) ), "\n";
+echo "PHP ", PHP_VERSION, " | memory_limit ", ini_get( 'memory_limit' ), " | WP ", get_bloginfo( 'version' ), "\n";
+echo "mu-plugin version: ", defined( 'ASN_PERF_VERSION' ) ? ASN_PERF_VERSION : 'NOT LOADED', " | applied: ", var_export( get_option( 'asn_perf_version' ), true ), "\n\n";
 
+/* ---- 1. revert -------------------------------------------------------- */
 $theme = get_option( 'liquid_one_opt' );
 if ( is_array( $theme ) ) {
+	echo "Hub before: optimized_files=", $theme['enable_optimized_files'] ?? '-', " combine_js=", $theme['combine_js'] ?? '-', "\n";
 	$theme['enable_optimized_files'] = 'off';
 	$theme['combine_js']             = 'off';
 	update_option( 'liquid_one_opt', $theme );
-	echo "Hub Optimized files: OFF\n";
+	echo "Hub now: optimized_files=off combine_js=off\n";
 }
 delete_option( 'liquid_assets_cache' );
 foreach ( (array) glob( wp_upload_dir()['basedir'] . '/liquid-styles/liquid-merged-*' ) as $f ) {
 	@unlink( $f );
 }
-// Let the mu-plugin's maintenance run again once the rule file is fixed.
-delete_option( 'asn_perf_version' );
+echo "elementor e_font_icon_svg: ", var_export( get_option( 'elementor_experiment-e_font_icon_svg' ), true ), "\n";
 
 if ( class_exists( '\Elementor\Plugin' ) && isset( \Elementor\Plugin::$instance->files_manager ) ) {
 	\Elementor\Plugin::$instance->files_manager->clear_cache();
@@ -48,6 +49,60 @@ if ( function_exists( 'rocket_clean_minify' ) ) {
 	rocket_clean_minify();
 	echo "WP Rocket minify cache cleared\n";
 }
+
+/* ---- 2. last fatal errors --------------------------------------------- */
+echo "\n===== last fatal errors =====\n";
+foreach ( array( ABSPATH . 'error_log', ABSPATH . 'wp-admin/error_log', WP_CONTENT_DIR . '/error_log', WP_CONTENT_DIR . '/debug.log', WP_CONTENT_DIR . '/plugins/error_log', WP_CONTENT_DIR . '/themes/error_log' ) as $log ) {
+	if ( ! is_readable( $log ) ) {
+		continue;
+	}
+	$size = filesize( $log );
+	$fh   = fopen( $log, 'r' );
+	fseek( $fh, max( 0, $size - 400000 ) );
+	$chunk = stream_get_contents( $fh );
+	fclose( $fh );
+	$lines = array_values( array_filter( explode( "\n", $chunk ), function ( $l ) {
+		return preg_match( '/PHP (Fatal|Parse)|Uncaught|Allowed memory/i', $l );
+	} ) );
+	echo "-- ", $log, " (", count( $lines ), " matches, showing last 8)\n";
+	foreach ( array_slice( $lines, -8 ) as $l ) {
+		echo "   ", mb_substr( trim( $l ), 0, 600 ), "\n";
+	}
+}
+
+/* ---- 3. parse-check Hub rule files ------------------------------------ */
+echo "\n===== parse check: hub-elementor-addons/elementor/optimization =====\n";
+$dir = WP_PLUGIN_DIR . '/hub-elementor-addons/elementor/optimization';
+$bad = 0;
+if ( is_dir( $dir ) ) {
+	$it = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $dir ) );
+	foreach ( $it as $f ) {
+		if ( 'php' !== strtolower( $f->getExtension() ) ) {
+			continue;
+		}
+		$src = file_get_contents( $f->getPathname() );
+		$err = '';
+		try {
+			// Compiles the file without running it: a syntax error throws ParseError
+			// before the leading `return true` executes.
+			@eval( 'return true; ?>' . $src ); // phpcs:ignore Squiz.PHP.Eval.Discouraged
+		} catch ( \ParseError $e ) {
+			$err = $e->getMessage() . ' on line ' . $e->getLine();
+		} catch ( \Throwable $e ) {
+			$err = '';
+		}
+		if ( false !== strpos( $src, 'array(,' ) ) {
+			$err = ( $err ? $err . '; ' : '' ) . 'contains "array(,"';
+		}
+		if ( $err ) {
+			$bad++;
+			echo "BAD  ", str_replace( WP_PLUGIN_DIR, '', $f->getPathname() ), " -> ", $err, "\n";
+		}
+	}
+} else {
+	echo "directory not found: $dir\n";
+}
+echo $bad ? '' : "all rule files parse OK\n";
 
 @unlink( __FILE__ );
 echo "\nDone. This script deleted itself. Open https://asaneghamat.com/ now.\n";
