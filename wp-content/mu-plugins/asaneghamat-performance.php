@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Asan Eghamat – Performance & Accessibility
  * Description: PageSpeed/Lighthouse optimizations for asaneghamat.com (fonts, LCP image, head cleanup, accessibility fixes). No WordPress core files are modified.
- * Version:     1.1.1
+ * Version:     1.1.2
  * Author:      Asan Eghamat
  */
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ASN_PERF_VERSION', '1.1.1' );
+define( 'ASN_PERF_VERSION', '1.1.2' );
 
 final class ASN_Performance {
 
@@ -390,12 +390,29 @@ final class ASN_Performance {
 	 * the one on the server before relying on it.
 	 */
 	private function hub_rules_file_ok() {
-		$file = WP_PLUGIN_DIR . '/hub-elementor-addons/elementor/optimization/widget-assets/rules/widget-options.php';
-		if ( ! is_readable( $file ) ) {
+		$dir  = WP_PLUGIN_DIR . '/hub-elementor-addons/elementor/optimization/widget-assets/rules';
+		$main = $dir . '/widget-options.php';
+		if ( ! is_readable( $main ) || false === strpos( (string) file_get_contents( $main ), 'lqdsep-btn-icon-base' ) ) {
 			return false;
 		}
-		$src = file_get_contents( $file );
-		return false !== strpos( $src, 'lqdsep-btn-icon-base' ) && false === strpos( $src, 'array(,' );
+		// Hub scandir()s this folder and includes *every* .php file – so a
+		// leftover backup such as "#widget-options.php" breaks the site too.
+		foreach ( (array) glob( $dir . '/*.php' ) as $file ) {
+			$src = (string) file_get_contents( $file );
+			if ( false !== strpos( $src, 'array(,' ) ) {
+				return false;
+			}
+			try {
+				// Compile only; a syntax error throws before `return true` runs.
+				@eval( 'return true; ?>' . $src ); // phpcs:ignore Squiz.PHP.Eval.Discouraged
+			} catch ( \ParseError $e ) {
+				return false;
+			} catch ( \Throwable $e ) {
+				// Runtime error means it compiled – fine.
+				continue;
+			}
+		}
+		return true;
 	}
 
 	/**
