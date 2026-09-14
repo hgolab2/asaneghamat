@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Asan Eghamat – Performance & Accessibility
  * Description: PageSpeed/Lighthouse optimizations for asaneghamat.com (fonts, LCP image, head cleanup, accessibility fixes). No WordPress core files are modified.
- * Version:     1.1.0
+ * Version:     1.1.1
  * Author:      Asan Eghamat
  */
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ASN_PERF_VERSION', '1.1.0' );
+define( 'ASN_PERF_VERSION', '1.1.1' );
 
 final class ASN_Performance {
 
@@ -368,7 +368,9 @@ final class ASN_Performance {
 	private function apply_settings() {
 		$theme = get_option( 'liquid_one_opt' );
 		if ( is_array( $theme ) ) {
-			$theme['enable_optimized_files'] = 'on';
+			// Only switch the merged CSS on when the patched rule file is deployed;
+			// the shipped copy has a parse error that takes the whole site down.
+			$theme['enable_optimized_files'] = $this->hub_rules_file_ok() ? 'on' : 'off';
 			$theme['combine_js']             = 'off';
 			update_option( 'liquid_one_opt', $theme );
 		}
@@ -379,6 +381,21 @@ final class ASN_Performance {
 		}
 
 		update_option( 'elementor_experiment-e_font_icon_svg', 'active' );
+	}
+
+	/**
+	 * hub-elementor-addons 5.0.8 ships `'lqdsep-btn-icon-base' => array(,` in
+	 * its split-CSS rule file – a parse error that is only hit when Hub's
+	 * "Optimized files" is on. The repo carries a patched copy; make sure it is
+	 * the one on the server before relying on it.
+	 */
+	private function hub_rules_file_ok() {
+		$file = WP_PLUGIN_DIR . '/hub-elementor-addons/elementor/optimization/widget-assets/rules/widget-options.php';
+		if ( ! is_readable( $file ) ) {
+			return false;
+		}
+		$src = file_get_contents( $file );
+		return false !== strpos( $src, 'lqdsep-btn-icon-base' ) && false === strpos( $src, 'array(,' );
 	}
 
 	/**
