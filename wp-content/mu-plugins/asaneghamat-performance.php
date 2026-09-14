@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Asan Eghamat – Performance & Accessibility
  * Description: PageSpeed/Lighthouse optimizations for asaneghamat.com (fonts, LCP image, head cleanup, accessibility fixes). No WordPress core files are modified.
- * Version:     1.1.2
+ * Version:     1.1.3
  * Author:      Asan Eghamat
  */
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ASN_PERF_VERSION', '1.1.2' );
+define( 'ASN_PERF_VERSION', '1.1.3' );
 
 final class ASN_Performance {
 
@@ -35,6 +35,10 @@ final class ASN_Performance {
 
 		// ---- Accessibility / HTML post-processing ------------------------------
 		add_action( 'template_redirect', array( $this, 'start_buffer' ), 1 );
+
+		// ---- Keep Hub's rules/ folder free of stray files (see clean_hub_rules_dir)
+		add_action( 'admin_init', array( $this, 'clean_hub_rules_dir' ), 1 );
+		add_action( 'init', array( $this, 'remove_hub_rules_error_log' ) );
 
 		// ---- One-time cache flush after deploy ---------------------------------
 		add_action( 'admin_init', array( $this, 'maybe_flush_caches' ) );
@@ -395,6 +399,7 @@ final class ASN_Performance {
 		if ( ! is_readable( $main ) || false === strpos( (string) file_get_contents( $main ), 'lqdsep-btn-icon-base' ) ) {
 			return false;
 		}
+		$this->clean_hub_rules_dir();
 		// Hub scandir()s this folder and includes *every* .php file – so a
 		// leftover backup such as "#widget-options.php" breaks the site too.
 		foreach ( (array) glob( $dir . '/*.php' ) as $file ) {
@@ -413,6 +418,41 @@ final class ASN_Performance {
 			}
 		}
 		return true;
+	}
+
+	/**
+	 * Hub does `foreach ( scandir( 'rules/' ) ) include $file;` – anything
+	 * that lands in that folder is executed or, if it is not PHP, dumped
+	 * verbatim into every page. cPanel's PHP writes an `error_log` next to a
+	 * script that is hit directly, which is exactly what happened once.
+	 * Remove such strays; only the plugin's own .php rule files may stay.
+	 */
+	public function clean_hub_rules_dir() {
+		$dir = WP_PLUGIN_DIR . '/hub-elementor-addons/elementor/optimization/widget-assets/rules';
+		if ( ! is_dir( $dir ) ) {
+			return;
+		}
+		foreach ( (array) scandir( $dir ) as $name ) {
+			if ( '.' === $name || '..' === $name ) {
+				continue;
+			}
+			$path = $dir . '/' . $name;
+			if ( is_dir( $path ) ) {
+				continue;
+			}
+			$is_rule = (bool) preg_match( '/^[a-z0-9-]+\.php$/', $name );
+			if ( ! $is_rule ) {
+				@unlink( $path );
+			}
+		}
+	}
+
+	/** Front-end cheap variant: one stat() per request, only the known culprit. */
+	public function remove_hub_rules_error_log() {
+		$log = WP_PLUGIN_DIR . '/hub-elementor-addons/elementor/optimization/widget-assets/rules/error_log';
+		if ( file_exists( $log ) ) {
+			@unlink( $log );
+		}
 	}
 
 	/**

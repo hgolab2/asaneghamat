@@ -3,7 +3,9 @@
  * One-off recovery + diagnostics script – upload to the site root, open it
  * once in the browser with ?key=asn-2026, then it deletes itself.
  *
- * 1. Turns Hub "Optimized files" OFF and purges caches (site renders again).
+ * 0. Deletes stray files from Hub's rules/ folder (Hub includes EVERY file
+ *    there; a PHP-generated error_log or a "#backup.php" breaks the site).
+ * 1. Turns Hub "Optimized files" OFF unless ?keep=1 is passed, purges caches.
  * 2. Prints the last PHP fatal errors from the host error logs.
  * 3. Parse-checks every Hub optimisation rule file.
  */
@@ -22,14 +24,35 @@ error_reporting( E_ALL );
 echo "PHP ", PHP_VERSION, " | memory_limit ", ini_get( 'memory_limit' ), " | WP ", get_bloginfo( 'version' ), "\n";
 echo "mu-plugin version: ", defined( 'ASN_PERF_VERSION' ) ? ASN_PERF_VERSION : 'NOT LOADED', " | applied: ", var_export( get_option( 'asn_perf_version' ), true ), "\n\n";
 
-/* ---- 1. revert -------------------------------------------------------- */
+/* ---- 0. stray files in Hub rules/ ------------------------------------- */
+$rules_dir = WP_PLUGIN_DIR . '/hub-elementor-addons/elementor/optimization/widget-assets/rules';
+echo "===== Hub rules/ folder =====\n";
+$strays = 0;
+foreach ( (array) scandir( $rules_dir ) as $name ) {
+	if ( '.' === $name || '..' === $name || is_dir( $rules_dir . '/' . $name ) ) {
+		continue;
+	}
+	if ( ! preg_match( '/^[a-z0-9-]+\.php$/', $name ) ) {
+		$strays++;
+		$size = filesize( $rules_dir . '/' . $name );
+		$ok   = @unlink( $rules_dir . '/' . $name );
+		echo "stray file ", $name, " (", $size, " bytes) -> ", $ok ? 'DELETED' : 'COULD NOT DELETE', "\n";
+	}
+}
+echo $strays ? '' : "clean\n";
+echo "\n";
+
+/* ---- 1. revert (skipped with ?keep=1) --------------------------------- */
+$keep  = isset( $_GET['keep'] ) && '1' === $_GET['keep'];
 $theme = get_option( 'liquid_one_opt' );
 if ( is_array( $theme ) ) {
 	echo "Hub before: optimized_files=", $theme['enable_optimized_files'] ?? '-', " combine_js=", $theme['combine_js'] ?? '-', "\n";
-	$theme['enable_optimized_files'] = 'off';
-	$theme['combine_js']             = 'off';
+	if ( ! $keep ) {
+		$theme['enable_optimized_files'] = 'off';
+	}
+	$theme['combine_js'] = 'off';
 	update_option( 'liquid_one_opt', $theme );
-	echo "Hub now: optimized_files=off combine_js=off\n";
+	echo "Hub now: optimized_files=", $theme['enable_optimized_files'], " combine_js=off", $keep ? ' (kept: ?keep=1)' : '', "\n";
 }
 delete_option( 'liquid_assets_cache' );
 foreach ( (array) glob( wp_upload_dir()['basedir'] . '/liquid-styles/liquid-merged-*' ) as $f ) {
